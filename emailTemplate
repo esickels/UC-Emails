@@ -1,0 +1,483 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Facebook sharing information tags -->
+<meta content="*|MC:SUBJECT|*" property="og:title" />
+<title>News You Can Use</title>
+<style type="text/css">
+/* Client-specific Styles */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+/* Reset Styles */
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+table td{
+border-collapse: collapse;
+}
+#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+/* Template Styles */
+/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+/**
+* @tab Page
+* @section background color
+* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+* @theme page
+*/
+body, #backgroundTable{
+/*@editable*/ background-color:#E8E8E8;
+}
+/**
+* @tab Page
+* @section email border
+* @tip Set the border for your email.
+*/
+#templateContainer{
+border: 1px solid #DDDDDD;
+}
+/**
+* @tab Page
+* @section heading 1
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+h1, .h1{
+/*@editable*/ color:#202020;
+display:block;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:34px;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Page
+* @section heading 2
+* @tip Set the styling for all second-level headings in your emails.
+* @style heading 2
+*/
+h2, .h2{
+/*@editable*/ color:#202020;
+display:block;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:30px;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Page
+* @section heading 3
+* @tip Set the styling for all third-level headings in your emails.
+* @style heading 3
+*/
+h3, .h3{
+/*@editable*/ color:#202020;
+display:block;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:26px;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Page
+* @section heading 4
+* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+* @style heading 4
+*/
+h4, .h4{
+/*@editable*/ color:#202020;
+display:block;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:22px;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+/**
+* @tab Header
+* @section preheader style
+* @tip Set the background color for your email's preheader area.
+* @theme page
+*/
+#templatePreheader{
+/*@editable*/ background-color:#FAFAFA;
+}
+/**
+* @tab Header
+* @section preheader text
+* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+*/
+.preheaderContent div{
+/*@editable*/ color:#505050;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:10px;
+/*@editable*/ line-height:100%;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Header
+* @section preheader link
+* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+*/
+.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#336699;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+/**
+* @tab Header
+* @section header style
+* @tip Set the background color and border for your email's header area.
+* @theme header
+*/
+#templateHeader{
+/*@editable*/ background-color:#FFFFFF;
+/*@editable*/ border-bottom:0;
+}
+/**
+* @tab Header
+* @section header text
+* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+*/
+.headerContent{
+/*@editable*/ color:#202020;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:34px;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+/*@editable*/ padding:0;
+/*@editable*/ text-align:center;
+/*@editable*/ vertical-align:middle;
+}
+/**
+* @tab Header
+* @section header link
+* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+*/
+.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#336699;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+#headerImage{
+height:auto;
+max-width:600px;
+}
+/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+/**
+* @tab Body
+* @section body style
+* @tip Set the background color for your email's body area.
+*/
+#templateContainer, .bodyContent{
+/*@editable*/ background-color:#FFFFFF;
+}
+/**
+* @tab Body
+* @section body text
+* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+* @theme main
+*/
+.bodyContent div{
+/*@editable*/ color:#505050;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:13px;
+/*@editable*/ line-height:150%;
+/*@editable*/ text-align:left;
+}
+.footer div{
+color:#333;
+font-size:10px;
+line-height:150%;
+text-align:left;
+font-family:arial;
+background:#E8E8E8;
+}
+.footer div a:link, .footer div a:visited{
+text-decoration:none;
+color:#990000;
+}
+@media only screen and (max-device-width: 480px) {
+h1,.h1{
+font-size: 30px !important;
+}
+table[id="templateContainer"]{
+max-width: 600px !important;
+width:100% !important;
+}
+td[class="bodyContent"] div{
+font-size: 21px !important;
+}
+}
+/**
+* @tab Body
+* @section body link
+* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#990000;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+.bodyContent img{
+display:inline;
+height:auto;
+}
+/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+/**
+* @tab Footer
+* @section footer style
+* @tip Set the background color and top border for your email's footer area.
+* @theme footer
+*/
+#templateFooter{
+/*@editable*/ background-color:#FFFFFF;
+/*@editable*/ border-top:0;
+}
+/**
+* @tab Footer
+* @section footer text
+* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+* @theme footer
+*/
+.footerContent div{
+/*@editable*/ color:#707070;
+/*@editable*/ font-family:Arial;
+/*@editable*/ font-size:12px;
+/*@editable*/ line-height:125%;
+/*@editable*/ text-align:left;
+}
+/**
+* @tab Footer
+* @section footer link
+* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+*/
+.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#336699;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+.footerContent img{
+display:inline;
+}
+/**
+* @tab Footer
+* @section social bar style
+* @tip Set the background color and border for your email's footer social bar.
+* @theme footer
+*/
+#social{
+/*@editable*/ background-color:#FAFAFA;
+/*@editable*/ border:0;
+}
+/**
+* @tab Footer
+* @section social bar style
+* @tip Set the background color and border for your email's footer social bar.
+*/
+#social div{
+/*@editable*/ text-align:center;
+}
+/**
+* @tab Footer
+* @section utility bar style
+* @tip Set the background color and border for your email's footer utility bar.
+* @theme footer
+*/
+#utility{
+/*@editable*/ background-color:#FFFFFF;
+/*@editable*/ border:0;
+}
+/**
+* @tab Footer
+* @section utility bar style
+* @tip Set the background color and border for your email's footer utility bar.
+*/
+#utility div{
+/*@editable*/ text-align:center;
+}
+#monkeyRewards img{
+max-width:190px;
+}
+</style>
+<center>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%" id="backgroundTable">
+  <tr>
+		<td align="center" valign="top">
+		<!-- // Begin Template Preheader \\ -->
+		<table border="0" cellspacing="0" cellpadding="10" width="600" id="templatePreheader">
+			<tr>
+				<td class="preheaderContent" valign="top">
+				<!-- // Begin Module: Standard Preheader \ -->
+				<table border="0" cellspacing="0" cellpadding="10" width="100%">
+					<tr>
+						<td valign="top">
+						<div>Reduced rec fee, a dance for a great cause, and more!</div>
+						</td>
+						<!-- *|IFNOT:ARCHIVE_PAGE|* -->
+						<td width="190" valign="top">
+						<div>
+						Is this e-mail not displaying correctly?<br />
+						<a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%">View in a browser window</a>
+						</div>
+						</td>
+						<!-- *|END:IF|* -->
+					</tr>
+				</table>
+				<!-- // End Module: Standard Preheader \ -->
+				</td>
+			</tr>
+		</table>
+		<!-- // End Template Preheader \\ -->
+		<table border="0" cellspacing="0" cellpadding="0" width="600" id="templateContainer">
+			<tr>
+				<td align="center" valign="top">
+				<!-- // Begin Template Header \\ -->
+				<table border="0" cellspacing="0" cellpadding="0" width="600" id="templateHeader">
+					<tr>
+						<td class="headerContent">
+						<!-- // Begin Module: Standard Header Image \\ -->
+						<img id="headerImage campaign-icon" style="max-width: 600px" src="http://uc.iupui.edu/email/newsyoucanuse/images/2012fall/Banner.jpg" alt="Image of various students and the News You Can Use logo." />
+						<!-- // End Module: Standard Header Image \\ -->
+						</td>
+					</tr>
+				</table>
+				<!-- // End Template Header \\ -->
+				</td>
+			</tr>
+			<tr>
+				<td align="center" valign="top">
+				<!-- // Begin Template Body \\ -->
+				<table border="0" cellspacing="0" cellpadding="0" width="600" id="templateBody">
+					<tr>
+						<td class="bodyContent" valign="top">
+						<!-- // Begin Module: Standard Postcard Content \\ -->
+						<table border="0" cellspacing="0" cellpadding="20" width="100%">
+							<tr>
+							  <td valign="top">
+								<div>
+								<p style="color: #484848; font-size: 10px">
+								<strong>
+								Wednesday, February 6, 2013</strong>
+								</p>
+								</div>
+								<!-- 
+								<div>
+								<h2 class="h2">Note to Faculty and Staff</h2>
+								<p>
+								<i>News You Can Use</i> is a weekly, just-in-time e-mail sent to all enrolled University College students. If you have events or information you would like considered for distribution via this e-mail, please submit your suggestions using the <a href="https://surveycentral.uc.iupui.edu/News-You-Can-Use-Suggestion.aspx?">online submission form</a>. Questions, updates, and concerns regarding <i>News You Can Use</i> can be sent to Eric Sickels at <a href="mailto:esickels@iupui.edu">esickels@iupui.edu</a>.
+								</p>
+								</div>
+								-->
+								<div>
+								<h1 style="color: #7d110c" class="h1">Table of Contents</h1>
+								<ol>
+									<li>Important  Deadlines</li>
+									<li>Honors College Student Council Dance</li>
+									<li>Reduced Recreation Fee</li>
+									<li>Athletics</li>
+									<li>Midterm Mardi Gras</li>
+								</ol>
+								</div>
+								<div>
+								<h2 class="h2">1. Important  Deadlines</h2>
+								<p>
+								Don&#39;t miss your opportunity to drop/add, waitlist, or change a class. Mark the dates below in your personal calendar so you don&#39;t forget!                                                          
+								</p>
+								<center>
+								<table border="0" width="540">
+									<tr style="background-color: #f8f8f8">
+										<td width="175" style="padding: 15px; font-size: 12px; line-height: 1.5">Friday, February 15</td>
+										<td width="355" style="padding: 15px; font-size: 12px; line-height: 1.5">Fall 2013 course offerings will be avilable <a href="http://registrar.iupui.edu/schedule.html">online</a>. Summer course offerings are already available.</td>
+									</tr>
+									<tr style="background-color: #f8f8f8">
+										<td style="padding: 15px; font-size: 12px; line-height: 1.5">Friday,  March 1</td>
+										<td style="padding: 15px; font-size: 12px; line-height: 1.5">
+										<p>Last day to withdraw with an automatic grade of  W. To drop a class, an advisor's signature is required. After this date an advisor AND instructors signature will be required to drop a course.
+										</p>
+										</td>
+									</tr>
+									
+								</table>
+								</center>
+								<p>
+								<a href="http://registrar.iupui.edu/enrollment/4132/cal4132.html">View All Dates for Spring 2013</a>
+								</p>
+								</div>
+								<div>
+								<div>
+								  <h2 class="h2">2. Honors College Student Council Dance</h2>
+								  <img src="http://media.broadcaster.iu.edu/collegeiupui/Advising/NYCU/nycu20130206/dance.jpg" alt="Image of past IUPUI Alternative Spring Break participants." />
+								  <p>All the money from this dance will go to support <a href="http://www.samstrong.org/">SamStrong</a>, an organization that was started by former IUPUI Honors College student, <a href="http://www.courierpress.com/news/2013/jan/02/cancer-takes-life-local-hero-sam-featherstone/">Sam Featherstone.</a> Sam started this organization to help raise awareness about pediatric brain cancer. Sam would have been inducted into ALD/PES this spring, but he passed away earlier this month following a courageous 3-year battle with brain cancer.</p>
+								  <p>The dance is Saturday, February 16, from 7-10:30 pm in the Campus Center. There will be a DJ, photo booth, raffles, and food, so come and join the fun and help support a great cause. Tickets are $5 single/$8 pair in advance and $8 single/$12 pair at the door.</p>
+								  <p>If you are interested in buying a ticket, contact Lisa at <a href="mailto:lruch@iupui.edu">lruch@iupui.edu</a>. </p>
+								  </div>
+								<h2 class="h2">3. Reduced Campus Recreation Fee</h2>
+								<p>The 2013 spring recreation fee for students has been reduced to only $15.00 for the semester. The recreation pass gives students access to the pool, open gym, fitness classes, and use of the weight rooms. Stop by the Natatorium to get your rec pass today.</p>
+								<p>
+								<a href="http://www.iunat.iupui.edu/">Learn More</a>
+								</p>
+								</div>
+								<div>
+								<h2 class="h2">4. IUPUI Athletics</h2>
+								<img src="http://media.broadcaster.iu.edu/collegeiupui/Advising/NYCU/nycu20130206/athletics.jpeg" alt="Image of Lolisa Gibson" />
+								<p>The IUPUI spring athletic season is officially underway and we are off to an impressive start. Tickets to see your Jaguars in action are free with your JagTag! Visit our website for more information on schedules, rosters and statistics for every sport.</p>
+								<p>
+								<a href="http://www.iupuijags.com/index.aspx">Learn More</a>
+								</p>
+								</div>
+								<div>
+								<h2 class="h2">5. Midterm Mardi Gras</h2>
+								<img src="http://media.broadcaster.iu.edu/collegeiupui/Advising/NYCU/nycu20130206/mardigras.jpeg" alt="Screenshot of OneStart" />
+								<p>Join Academic and Career Development for Midterm Mardi Gras! Take a quick break and learn about career planning at IUPUI. Jus stop by the second floor of Taylor Hall on Tuesday, February 12 from 12–2 p.m.								</p>
+								</div></td>
+							</tr>
+						</table>
+						<!-- // End Module: Standard Postcard Content \\ -->
+						</td>
+					</tr>
+				</table>
+				<!-- // End Template Body \\ -->
+				</td>
+			</tr>
+		</table>
+		<table border="0" cellspacing="0" cellpadding="10" width="600">
+			<tr>
+				<td class="footer">
+				<div>
+				<center><strong>Academic and Career Development, Taylor Hall, 815 W. Michigan Street, Indianapolis, IN, 46202, USA</strong>
+				</center>
+				<p>
+				You are receiving this message because you are a University College student at IUPUI. If you wish to unsubscribe from future News You Can Use e-mails, you can always unsubscribe. If you have questions about advising, career planning, or anything found in this e-mail, please reply to this message or e-mail advising@iupui.edu.
+				</p>
+				<p>
+				<a href="http://www.iu.edu/comments/copyright.shtml">Copyright</a> &copy; 2002&ndash;2013 The Trustees of Indiana University - <a href="http://www.indiana.edu/comments/complaint.shtml">Copyright Complaints</a> | <a href="http://www.iu.edu/comments/privacy.shtml">Privacy Notice</a>
+				</p>
+				</div>
+				<!-- // End Template Footer \\ -->
+				</td>
+			</tr>
+		</table>
+		<br />
+		</td>
+	</tr>
+</table>
+</center>
