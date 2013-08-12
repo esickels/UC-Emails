@@ -11,12 +11,20 @@
 		}
 		
 		#introduction{
-			width:372px;
+			width:61.6%;
 		}
 		
 		#section7 tr{
 			height:140px;
 		}
+	 
+	 	/* ///////// CLIENT-SPECIFIC STYLES ///////// */	 	
+		#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */	 	
+		.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */	 	
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */	 	
+		body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */	 	
+		table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */	 	
+		img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 	 
 	 </style>
      
@@ -28,7 +36,7 @@
         	<tr>
 <!------------------------------ Preheader ------------------------------>            
             	<td style="text-align:center" id="browserHead"><p>UC &lt;3's you, IUPUI International Festival, Win IUPUI Basketball Tix and much more<br /><br />
-                <strong>Is this e-mail displaying correctly? View in Browser</strong></p></td><!---------------------------- End Preheader ---------------------------->      
+                <strong>Is this e-mail displaying correctly? <a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank" style="color: #606060;font-weight: normal;text-decoration: underline;">View it in your browser</a>.</strong></p></td><!---------------------------- End Preheader ---------------------------->      
             </tr>
             <tr valign="bottom">
             	<td style="text-align:center;line-height:0;" id="whatsHappening" valign="bottom"><img src="http://media.broadcaster.iu.edu/collegeiupui/whatsHappening/headerImage.jpg" style="max-width: 620px;"></td>
