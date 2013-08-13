@@ -26,7 +26,27 @@
 			width:160px;
 			background-color:rgb(43,99,126);
 		}
-	 
+		
+		#contents{
+			color:#FFF;
+			font-size:16px;
+		}
+		
+		#tableOf{
+			color:#FFF;
+			font-size:14px;
+			font-style:italic;
+		}
+		
+		#listOfContents{
+			color:#FFF;
+			font-size:12px;
+		}
+		
+		#cellContents{
+			line-height:200% !important;
+		}
+		
 	 	/* ///////// CLIENT-SPECIFIC STYLES ///////// */	 	
 		#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */	 	
 		.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */	 	
@@ -53,13 +73,38 @@
             <tr>
             	<td>
 <!----------------------------- Introduction ----------------------------->
-                    <table id="IntroAndContents" height="100%" width="100%" style="border-spacing:0em;border-collapse:collapse;" cellpadding="0" cellspacing="0">
+<table id="IntroAndContents" height="100%" width="100%" style="border-spacing:0em;border-collapse:collapse;" cellpadding="0" cellspacing="0">
                         <tr valign="top">
                             <td id="introduction" style="padding-left:10px;" width="366px;" height="260px";><br /><span style="font-size:24px;"><strong>[First Name],</strong></span><p style="padding-right:30px;">Happy Almost Valentine's Day!<br />This week, you won't want to miss free sweet and treats at University College all day on Valentine's Day. You'll also want to make sure you're in The Jungle for this weekend's huge playoff game against the Martin University Marlins. Read on for how you can win two free tickets for the game and for other happenings!</p></td>
                             <td id="tableOfContents">
                                <table cellpadding="0" cellspacing="0">
                                 	<tr id="contentsRow" height="200px">
-                                    	<td id="contentsBackground" style="background-color:rgb(43,99,126);" width="160px"></td>
+                                    	<td id="contentsBackground" style="background-color:rgb(43,99,126);" width="160px" valign="top">
+                                        <table>
+                                        	<tr>
+                                            	<td align="right" height="30px">
+                                                    <span id="tableOf" style="color:#FFF;font-style:italic;font-size:14px;">Table of</span>
+                                                </td>
+                                                <td valign="bottom" width="62%">
+                                                    <span id="contents" style="color:#FFF;font-size:16px;">CONTENTS</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            	<td id="cellContents" colspan="2">
+                                                    
+                                                    <span id="listOfContents" style="color:#FFF;font-size:12px;line-height:2;">
+                                                    1. UC <3's You<br />
+                                                    2. IUPUI International Festival<br />
+                                                    3. Win IUPUI Basketball Tix!<br />
+                                                    4. Medical Humanities - Health Studies Career Fair<br />
+                                                    5. Bike Safety Seminars<br />
+                                                    6. Other Happenings<br />
+                                                    7. Off Campus Happenings                                         
+                                                    </span>
+                                            	</td>
+                                             </tr>
+                                         </table>
+                                        </td>
                                     </tr>
                                     <tr>
                                     	<td id="bottomRibbon"><img src="http://media.broadcaster.iu.edu/collegeiupui/whatsHappening/bottomOfRibbon.jpg" />
@@ -70,7 +115,7 @@
                             	<table background="http://media.broadcaster.iu.edu/collegeiupui/whatsHappening/tableOfContentsBackground.jpg" width="179" height="251" border="0" cellpadding="0" cellspacing="0">
                             	   <tr>
                             	      <td style="padding-top:30px;padding-left:10px;font-size:12px;line-height:1.8;color:#FFF" valign="top">
-                            	         1. UC &lt;3's You<br />
+                            	         1. UC <3's You<br />
                             	         2. IUPUI International Festival<br />
                             	         3. Win IUPUI Basketball Tix!<br />
                             	         4. Medical Humanities - Health Studies Career Fair<br />
