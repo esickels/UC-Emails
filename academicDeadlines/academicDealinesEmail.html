@@ -4,6 +4,64 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>*|MC:SUBJECT|*</title>   
 <style>
+	@media only screen and (max-width: 489px){
+	
+	#mobilePictureTest{
+		display:table-cell !important;
+	}
+	
+	#pictureTest{
+		display:none !important;
+	}
+	
+	#tableOfContents{
+		display:none !important;
+	}
+	
+	#whatsHappening{
+		display:none !important;
+	}
+	
+	
+	#importantDeadlines{
+		font-size:48px !important;
+	}
+	
+	.week{
+		font-size:24px !important;
+		color:rgb(168,5,50) !important;
+	}
+	
+	#introduction{
+		padding-left:0px  !important;
+	}
+	
+	#resourcesText{
+		color:#FFF;
+		font-size:36px !important;
+	}
+	
+	ol{
+		color:#FFF;
+		font-size:20px !important;
+		padding-right:15px;
+		line-height:2;
+	}
+
+}
+
+
+	#whatsMobileHappening{
+		visibility:hidden;
+		display:none;
+		width:0px;
+		height:0px;
+	}
+	
+	#mobileResources{
+		display:none;
+	}
+	
 	#bodyTable{
 		width:600px;
 		background-color:#FFF;			
@@ -65,6 +123,11 @@
 	#bottomRibbon{
 		padding-bottom:20px;
 	}
+	
+	#mobilePictureTest{
+		display:none;
+	}
+	
 
 </style>
 
@@ -79,7 +142,10 @@
                 <strong>Is this e-mail displaying correctly? <a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank" style="color: #606060;font-weight: normal;text-decoration: underline;">View it in your browser</a>.</strong></p></td>      
             </tr>
             <tr valign="bottom">
-            	<td style="text-align:center;line-height:0;" id="whatsHappening" valign="bottom"><img src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/academicHeader.jpg" style="max-width: 600px;"/></td>
+            	<td id="pictureTest" style="text-align:center;line-height:0;" valign="bottom"><img id="whatsHappening" src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/academicHeader.jpg" style="max-width: 600px;"/></td>
+            <tr>
+            	<td id="mobilePictureTest" style="text-align:center;line-height:0; display:none !important;" valign="bottom">
+                <img id="whatsMobileHappening" src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/academicMobileHeader.jpg" style="max-width: 600px; display:none;" style="display:none;"/></td>
             </tr>
 <!---------------------------- End Preheader ---------------------------->
             <tr>
@@ -91,12 +157,12 @@
                             	<table>
                                 	<tr>
                                     	<td>
-                            				<br /><span style="font-size:24px;color:rgb(168,5,50);"><strong>IMPORTANT</strong> DEADLINES</span>
+                            				<br /><span id="importantDeadlines" style="font-size:24px;color:rgb(168,5,50);"><strong>IMPORTANT</strong> DEADLINES</span>
                                         </td>
                                     </tr>
                                     <tr>
                                     	<td class="interiorCell" style="padding:5px;">
-                                        	<br /><strong>Week 1</strong>
+                                        	<span class="week"><br /><strong>Week 1</strong></span>
                                         </td>	
                                     </tr>
                                     <tr>
@@ -122,7 +188,7 @@
                                                 </tr>
                                                 <tr>
                                                 	<td valign="top" colspan="2" class="interiorCell" style="padding:5px;">
-                                                		<br /><strong>Week 2</strong>
+                                                		<span class="week"><br /><strong>Week 2</strong></span>
                                                     </td>
                                                 </tr>
                                                 <tr style="background-color:rgb(240,235,215);">
@@ -145,7 +211,7 @@
                                                 </tr>
                                                 <tr>
                                                 	<td valign="top" class="interiorCell" style="padding:5px;">
-                                                		<br /><strong>Week 3</strong>
+                                                		<span class="week"><br /><strong>Week 1</strong></span>
                                                     </td>
                                                 </tr>
                                                 <tr style="background-color:rgb(240,235,215);">
@@ -204,6 +270,16 @@
                 </td>
              </tr>
 <!--------------------------- End Introduction --------------------------->
+		<tr id="mobileResources" style="display:none !important;" >
+            	<td style="background-color:rgb(43,99,126); padding-top:10px; padding-left:20px;">
+                	<span id="resourcesText" style="color:#FFF; font-size:36px;"><strong>Resources</strong></span>
+                        <ol style="color:#FFF;font-size:20px;padding-right:15px;line-height:2;">
+                            <li>Lorid eoor dkriwl</li>
+                            <li>Oelfo lewro woer we ew er wlekrio</li>
+                            <li>Peirdi owerl weir woeir lweri wo wl</li>
+                        </ol>                    
+                </td>
+            </tr>
 <!--------------------------- Footer-------------------------------------->
 			<tr valign="bottom">
             	<td id="footerImage" valign="bottom" style="background-color:rgb(168,5,50);">
