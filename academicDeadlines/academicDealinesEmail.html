@@ -6,8 +6,20 @@
 <style>
 	@media only screen and (max-width: 489px){
 	
+	body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+   	body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+	
+	#widthAdjust{
+		width:100%;
+	}
+	
+	#bodyTable{
+		width:600px !important;
+		background-color:#FFF !important;			
+	}
+	
 	#mobilePictureTest{
-		display:table-cell !important;
+		display:block !important;
 	}
 	
 	#pictureTest{
@@ -63,8 +75,15 @@
 	}
 	
 	#bodyTable{
-		width:600px;
-		background-color:#FFF;			
+		width:100%;
+		background-color:#FFF;
+		mso-table-lspace: 0pt;
+		mso-table-rspace: 0pt;
+		margin: 0;
+		padding: 0;
+		background-color: #DEE0E2;
+		border-collapse: collapse;
+		height: 100%;			
 	}
 	
 	.interiorCell{
@@ -128,14 +147,38 @@
 		display:none;
 	}
 	
+	#bodyCell{
+		mso-table-lspace: 0pt;
+		mso-table-rspace: 0pt;
+		margin: 0;
+		padding: 20px;
+		border-top: 4px solid #BBBBBB;
+		height: 100%;
+		width: 100%;
+	}
+	
+	#template{
+		background-color:#FFF;
+		border-collapse:collapse;
+		border-spacing:0em;
+		width:600px;
+	}
+	
+	#widthAdjust{
+		width:210;
+	}
+	
 
 </style>
 
 </head>
 
-<body style="background-color:#999;">
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="margin: 0;padding: 0;background-color: #DEE0E2;height: 100%;width: 100%;">
     <center>
-  	<table align="center" border="0" cellpadding="0" cellspacing="0" width="600px" id="bodyTable" style="background-color:#FFF;border-collapse:collapse;border-spacing:0em;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0;background-color: #DEE0E2;border-collapse: collapse;height: 100%;width: 100%;">
+            <tr>
+            	<td align="center" valign="top" id="bodyCell" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 20px;border-top: 4px solid #BBBBBB;height: 100%;width: 100%;">
+  					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600px" id="template" style="background-color:#FFF;border-collapse:collapse;border-spacing:0em;">
         	<tr>
 <!------------------------------ Preheader ------------------------------>            
             	<td style="text-align:center; padding-bottom:10px;" id="browserHead"><p>UC &lt;3's you, IUPUI International Festival, Win IUPUI Basketball Tix and much more<br /><br />
@@ -145,7 +188,7 @@
             	<td id="pictureTest" style="text-align:center;line-height:0;" valign="bottom"><img id="whatsHappening" src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/academicHeader.jpg" style="max-width: 600px;"/></td>
             <tr>
             	<td id="mobilePictureTest" style="text-align:center;line-height:0; display:none !important;" valign="bottom">
-                <img id="whatsMobileHappening" src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/academicMobileHeader.jpg" style="max-width: 600px; display:none;" style="display:none;"/></td>
+                <img id="whatsMobileHappening" src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/academicMobileHeader.jpg" style="max-width: 600px;" /></td>
             </tr>
 <!---------------------------- End Preheader ---------------------------->
             <tr>
@@ -173,7 +216,7 @@
                                                     	<strong>Friday</strong><br />
                                                         <span class="date" style="color:rgb(168,5,50);">Februrary 15</span>
                                                     </td>
-                                                    <td valign="top" class="interiorCell" style="padding:5px;">
+                                                    <td valign="top" id="widthAdjust" width="210" class="interiorCell" style="padding:5px;">
                                                     	Fall 2013 course offerings will be available online. Summer course offerings are already available.
                                                     </td>
                                                 </tr>
@@ -182,7 +225,7 @@
                                                     	<strong>Friday</strong><br />
                                                         <span class="date" style="color:rgb(168,5,50);">March 1</span>
                                                     </td>
-                                                    <td valign="top" class="interiorCell" style="padding:5px;">
+                                                    <td valign="top" class="interiorCell" width="210" style="padding:5px;">
                                                     	Last day to withdraw with an automatic grade of W. To drop a class, an advisor's signature is required. After this date an advisor AND instructors signature will be required to drop a course.
                                                     </td>
                                                 </tr>
@@ -196,7 +239,7 @@
                                                     	 <strong>Friday</strong><br />
                                                          <span class="date" style="color:rgb(168,5,50);">Februrary 15</span>
                                                     </td>
-                                                    <td valign="top" class="interiorCell" style="padding:5px;">
+                                                    <td valign="top" class="interiorCell" width="210" style="padding:5px;">
                                                     	Fall 2013 course offerings will be available online. Summer course offerings are already available.
                                                     </td>
                                                 </tr>
@@ -205,13 +248,13 @@
                                                     	<strong>Friday</strong><br />
                                                         <span class="date" style="color:rgb(168,5,50);">March 1</span>
                                                     </td>
-                                                    <td valign="top" class="interiorCell" style="padding:5px;">
+                                                    <td valign="top" class="interiorCell" width="210" style="padding:5px;">
                                                     	Last day to withdraw with an automatic grade of W. to drop a class, an advisor's signature is required. After this date an advisor AND instructors signature will be required to drop a course.
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                 	<td valign="top" class="interiorCell" style="padding:5px;">
-                                                		<span class="week"><br /><strong>Week 1</strong></span>
+                                                		<span class="week"><br /><strong>Week 3</strong></span>
                                                     </td>
                                                 </tr>
                                                 <tr style="background-color:rgb(240,235,215);">
@@ -219,7 +262,7 @@
                                                     	<strong>Friday</strong><br />
                                                         <span class="date" style="color:rgb(168,5,50);">Februrary 15</span>
                                                     </td>
-                                                    <td valign="top" class="interiorCell" style="padding:5px;">
+                                                    <td valign="top" class="interiorCell" width="210" style="padding:5px;">
                                                     	Fall 2013 course offerings will be available online. Summer course offerings are already available. 
                                                     </td>
                                                  </tr>
@@ -228,7 +271,7 @@
                                                     	<strong>Friday</strong><br />
                                                         <span class="date" style="color:rgb(168,5,50);">March 1</span>
                                                     </td>
-                                                    <td valign="top" class="interiorCell" style="padding:5px;">
+                                                    <td valign="top" class="interiorCell" width="210" style="padding:5px;">
                                                     	Last day to withdraw with an automatic grade of W. To drop a class, an advisor's signature is required. After this date an advisor AND instructors signature will be required to drop a course.
                                                     </td>
                                                 </tr>
@@ -304,6 +347,9 @@
                 </td>
             </tr>
 <!--------------------------- End Footer---------------------------------->
+</table>
+</td>
+</tr>
     </table>
 </body>
 </html>
