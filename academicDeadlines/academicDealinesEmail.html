@@ -6,60 +6,80 @@
 <style>
 	@media only screen and (max-width: 489px){
 	
-	body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
-   	body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+		body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+		body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+		
+		#widthAdjust{
+			width:100% !important;
+		}
+		
+		#bodyTable{
+			width:600px !important;
+			background-color:#FFF !important;			
+		}
+		
+		#mobilePictureTest{
+			display:block !important;
+		}
+		
+		#pictureTest{
+			display:none !important;
+		}
+		
+		#tableOfContents{
+			display:none !important;
+		}
+		
+		#whatsHappening{
+			display:none !important;
+		}
+		
+		
+		#importantDeadlines{
+			font-size:48px !important;
+		}
+		
+		.week{
+			font-size:24px !important;
+			color:rgb(168,5,50) !important;
+		}
+		
+		#introduction{
+			padding-left:0px  !important;
+		}
+		
+		#resourcesText{
+			color:#FFF;
+			font-size:36px !important;
+		}
+		
+		ol{
+			color:#FFF !important;
+			font-size:20px !important;
+			padding-right:15px !important;
+			line-height:2 !important;
+		}
+		
+		#mobileResources{
+			background-color:rgb(43,99,126) !important;
+			padding:15px !important;
+		}
+		
+		#mobileList{
+			color:#FFF !important;
+			font-size:20px !important;
+			padding-right:15px !important;
+			line-height:200% !important;
+		}
+		
+		.interiorCell{
+			font-size:24px !important;
+		}
+		
+		#browserHead{
+			display:none !important;
+		}
 	
-	#widthAdjust{
-		width:100%;
-	}
-	
-	#bodyTable{
-		width:600px !important;
-		background-color:#FFF !important;			
-	}
-	
-	#mobilePictureTest{
-		display:block !important;
-	}
-	
-	#pictureTest{
-		display:none !important;
-	}
-	
-	#tableOfContents{
-		display:none !important;
-	}
-	
-	#whatsHappening{
-		display:none !important;
-	}
-	
-	
-	#importantDeadlines{
-		font-size:48px !important;
-	}
-	
-	.week{
-		font-size:24px !important;
-		color:rgb(168,5,50) !important;
-	}
-	
-	#introduction{
-		padding-left:0px  !important;
-	}
-	
-	#resourcesText{
-		color:#FFF;
-		font-size:36px !important;
-	}
-	
-	ol{
-		color:#FFF;
-		font-size:20px !important;
-		padding-right:15px;
-		line-height:2;
-	}
-
 }
 
 
@@ -71,7 +91,13 @@
 	}
 	
 	#mobileResources{
-		display:none;
+		background-color:#FFF;
+		padding:0px 0px 0px 0px;
+	}
+	
+	#mobileList{
+		line-height:0%;
+		font-size:1px;
 	}
 	
 	#bodyTable{
@@ -106,7 +132,6 @@
 	
 	#introduction{
 		width:62.7%;
-		padding-bottom:20px;
 	}
 	
 	#contentsBackground{
@@ -211,7 +236,7 @@
                                     </tr>
                                     <tr>
                                     	<td>
-                                        	<table id="leftTable" style="padding-bottom:20px;">
+                                        	<table id="leftTable">
                                             	<tr style="background-color:rgb(240,235,215);">
                                                 	<td valign="top" width="28%" class="interiorCell" style="padding:5px;">
                                                     	<strong>Friday</strong><br />
@@ -314,10 +339,10 @@
                 </td>
              </tr>
 <!--------------------------- End Introduction --------------------------->
-		<tr id="mobileResources" style="display:none !important;" >
-            	<td style="background-color:rgb(43,99,126); padding-top:10px; padding-left:20px;">
+		<tr>
+            	<td id="mobileResources" style="background-color:#FFF;">
                 	<span id="resourcesText" style="color:#FFF; font-size:36px;"><strong>Resources</strong></span>
-                        <ol style="color:#FFF;font-size:20px;padding-right:15px;line-height:2;">
+                        <ol id="mobileList" style="color:#FFF;font-size:1px;line-height:0;">
                             <li>Lorid eoor dkriwl</li>
                             <li>Oelfo lewro woer we ew er wlekrio</li>
                             <li>Peirdi owerl weir woeir lweri wo wl</li>
