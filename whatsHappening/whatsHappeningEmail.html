@@ -5,9 +5,40 @@
         <title>IUPUI What's Happening</title>    
         
           <style>
-	 	#bodyTable{
-			width:600px;
-			background-color:#FFF;			
+	  @media only screen and (max-width: 489px){
+
+		/*body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} 
+		body{width:100% !important; min-width:100% !important;} 
+		
+		#tableOfContents{
+			display: none !important;
+		}
+		
+		#listOfContents{
+			color:#FFF !important;
+			font-size:12px !important;
+			line-height:2 !important;
+		 }
+		 
+		 #mobileCell{
+			 background:rgb(43,99,126) !important;
+		 }
+		 
+		#mobileResources{
+			font-size:18px !important;
+		}*/
+}
+
+		#bodyTable{
+			width:100%;
+			background-color:#FFF;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+			margin: 0;
+			padding: 0;
+			background-color: #DEE0E2;
+			border-collapse: collapse;
+			height: 100%;			
 		}
 		
 		#introduction{
@@ -43,9 +74,16 @@
 			font-size:12px;
 		}
 		
+		#mobilelistOfContents{
+			color:#FFF;
+			font-size:1px;
+			line-height:0%;
+		}
+		
 		#cellContents{
 			line-height:200% !important;
 		}
+		
 		p{
 			font-family:Arial, Helvetica, sans-serif; 
 			font-size:14px; 
@@ -73,6 +111,36 @@
 			}
 		a {
 			color:rgb(49,99,127);
+		}
+		
+		#mobileResources{
+			font-size:1px;
+		}
+		
+		#listOfContents{
+			font-size:1px;
+		}
+		
+		#mobileCell{
+			background-color:#FFF;
+			line-height:0%;
+		}
+		
+		#bodyCell{
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+			margin: 0;
+			padding: 20px;
+			border-top: 4px solid #BBBBBB;
+			height: 100%;
+			width: 100%;
+		}
+	
+		#template{
+			background-color:#FFF;
+			border-collapse:collapse;
+			border-spacing:0em;
+			width:600px;
 		}
 		
 		
