@@ -7,7 +7,7 @@
           <style>
 	  @media only screen and (max-width: 489px){
 
-		/*body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} 
+		body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} 
 		body{width:100% !important; min-width:100% !important;} 
 		
 		#tableOfContents{
@@ -26,7 +26,79 @@
 		 
 		#mobileResources{
 			font-size:18px !important;
-		}*/
+		}
+				
+		.whenWhereTable td{
+			line-height:100% !important;
+			padding-left:10px !important;
+		}
+		 
+		.mobileContent6{
+			 font-family:Arial, Helvetica, sans-serif !important;
+			 font-size:12px !important;
+			 color:#000 !important;
+			 line-height:100% !important;
+		}
+		
+		.mobileHeaderCell{
+			padding-left:10px !important; 
+			padding-top:20px !important;
+			line-height:100% !important;
+		}
+		
+		.whencontentMobile{
+			font-family:Arial, Helvetica, sans-serif !important;
+			font-size:12px !important;
+			padding-top:5px !important;
+			color:#000 !important;
+			line-height:100% !important;
+		}
+		
+		.wherecontentMobile{
+			font-family:Arial, Helvetica, sans-serif !important;
+			font-size:12px !important;
+			color:#000 !important;
+			line-height:100% !important;
+		}
+		
+		.mobileHeader{
+			color:rgb(169,4,50) !important;
+			font-size:24px !important;
+			padding-left:10px !important;
+			line-height:100% !important;
+		}
+		
+		.mobileSectionTitle{
+			font-size:14px !important;
+			color:#000 !important;
+			line-height:100% !important;
+		}
+		
+		.titleAndContent{
+			padding-left:10px !important;
+			padding-top:10px !important;
+			color:#000 !important;
+			line-height:100% !important;
+		}
+		
+		.whenTitleMobile{
+			font-size:12px !important;
+			color:rgb(169,4,50)!important;
+			line-height:100% !important;
+		}
+		
+		.whereTitleMobile{
+			font-size:12px !important;
+			color:rgb(169,4,50) !important;
+			line-height:100% !important;
+		}
+		
+		.hideSectionMobile{
+			display:none !important;
+		}
+		
+		/*Remove Sections 6/7*/
+		
 }
 
 		#bodyTable{
@@ -74,12 +146,6 @@
 			font-size:12px;
 		}
 		
-		#mobilelistOfContents{
-			color:#FFF;
-			font-size:1px;
-			line-height:0%;
-		}
-		
 		#cellContents{
 			padding-left:5px;
 			line-height:200%;
@@ -118,18 +184,10 @@
 			font-size:12px;
 			padding-bottom:5px;
 		}
+		
 		a{
 			color:rgb(49,99,127);
 			text-decoration: none;
-		}
-		
-		#mobileResources{
-			font-size:1px;
-		}
-		
-		#mobileCell{
-			background-color:#FFF;
-			line-height:0%;
 		}
 		
 		#bodyCell{
@@ -180,7 +238,7 @@
 			padding-bottom:5px;
 		}
 		
-		##sections2AND3{
+		#sections2AND3{
 			border-collapse:separate;
 			border-spacing:23px;
 		}
@@ -197,7 +255,73 @@
 		.outlookNoBackground{
 			background-color:#FFF !important;
 		}
+
+		#mobilelistOfContents{
+			color:#FFF;
+			font-size:1px;
+			line-height:0%;
+		}
 		
+		#mobileResources{
+			font-size:1px;
+		}
+		
+		#mobileCell{
+			background-color:#FFF;
+			line-height:0%;
+		}
+		
+/*******************6/7 Mobile**********************/	
+			
+		.whenWhereTable td{
+			line-height:0%;
+			font-size:1px;
+			color:#FFF;	
+		}
+		 
+		.mobileContent6{
+			 font-family:Arial, Helvetica, sans-serif;
+			 font-size:1px;
+			 color:#FFF;
+			 line-height:0%;
+		}
+		
+		.mobileHeaderCell{
+			padding-left:0px;
+			color:#FFF;
+			line-height:0%; 
+		}
+		
+		.whencontentMobile{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:1px;
+			padding-top:0px;
+			color:#FFF;
+			line-height:0%;
+		}
+		.wherecontentMobile{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:1px;
+			color:#FFF;
+			line-height:0%;
+		}
+		
+		.mobileHeader{
+			color:rgb(169,4,50);
+			font-size:1px;
+			padding-left:0px;
+			color:#FFF;
+			line-height:0%;
+		}
+		
+		.mobileSectionTitle{
+			font-size:1px;
+			color:#FFF;
+			line-height:0%;
+		}
+		
+
+/*******************End Mobile*******************/	
 		
 	 	/* ///////// CLIENT-SPECIFIC STYLES ///////// */	 	
 		#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */	 	
@@ -424,7 +548,7 @@
 					<table>
                     	<td width="280px" style="vertical-align:top;padding-right:20px;padding-left:10px;">
 <!------------------------------ SECTION NUMBER 6 ------------------------------>
-                         	<table height="100%">
+                         	<table class="hideSectionMobile" height="100%">
                                 <tr>
                                     <td style="padding-top:20px;"><span style="color:rgb(169,4,50);font-size:20px;"><strong>6. Other WOW Events</strong></span></td>
                                 </tr>
@@ -487,9 +611,9 @@
                             </table>
 <!---------------------------- END SECTION NUMBER 6 ---------------------------->
                         </td>
-                        <td width="280px" style="vertical-align:top;padding-right:10px;padding-bottom:50px;">
+                        <td width="280px" style="vertical-align:top;padding-right:10px;">
 <!------------------------------ SECTION NUMBER 7 ------------------------------>
-                        	<table height="100%">
+                        	<table class="hideSectionMobile" height="100%">
                                 <tr>
                                     <td style="padding-top:20px;"><span style="color:rgb(169,4,50);font-size:20px;"><strong>7. Off-Campus Happenings</strong></span></td>
                                 </tr>
@@ -565,6 +689,212 @@
                     </table>
                 </td>
             </tr>
+<!---------------------------- Mobile SECTION NUMBER 6 ---------------------------->            
+            <tr>
+            	<td class="mobileHeaderCell" style="padding-left:0px;line-height:0%;">
+                	<span class="mobileHeader" style="color:#FFF;font-size:1px;padding-left:0px;"><strong>6 Other Happenings</strong></span>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="titleAndContent" style="padding-left:0px;color:#FFF;line-height:0%;">
+                	<span class="mobileSectionTitle" style="font-size:1px;"><strong><em>Title Here</em></strong></span><br />
+                    <span class="mobileContent6" style="font-family:Arial, Helvetica, sans-serif; font-size:1px;">As dit eos doluptas velliquam, officaerum et untemolore, si rescius animus doloreiadsawe sdfwerdfadjkfl;a.</span>
+                </td>
+            </tr>
+            <tr>
+            	<td style="line-height:0%;">
+                	<table class="whenWhereTable" style="padding-bottom:0px;color:#FFF;line-height:0%;">
+                    	<tr>
+                        	<td class="whenTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>When:</strong>
+                            </td>
+                            <td class="whencontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	Tuesday, March 1st
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td class="whereTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>Where:</strong>
+                            </td>
+                            <td class="wherecontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	2nd Floor, University College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+                        <tr>
+            	<td class="titleAndContent" style="padding-left:0px;color:#FFF;line-height:0%;">
+                	<span class="mobileSectionTitle" style="font-size:1px;"><strong><em>Title Here</em></strong></span><br />
+                    <span class="mobileContent6" style="font-family:Arial, Helvetica, sans-serif; font-size:1px;">As dit eos doluptas velliquam, officaerum et untemolore, si rescius animus doloreiadsawe sdfwerdfadjkfl;a.</span>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+                	<table class="whenWhereTable" style="padding-bottom:0px;color:#FFF;line-height:0%;">
+                    	<tr>
+                        	<td class="whenTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>When:</strong>
+                            </td>
+                            <td class="whencontentMobile" style="padding-left:0px;font-size:1px;line-height:0%;">
+                            	Tuesday, March 1st
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td class="whereTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>Where:</strong>
+                            </td>
+                            <td class="wherecontentMobile" style="padding-left:0px;font-size:1px;line-height:0%;">
+                            	2nd Floor, University College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+                        <tr>
+            	<td class="titleAndContent" style="padding-left:0px;color:#FFF;line-height:0%;">
+                	<span class="mobileSectionTitle" style="font-size:1px;"><strong><em>Title Here</em></strong></span><br />
+                    <span class="mobileContent6" style="font-family:Arial, Helvetica, sans-serif; font-size:1px;">As dit eos doluptas velliquam, officaerum et untemolore, si rescius animus doloreiadsawe sdfwerdfadjkfl;a.</span>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+                	<table class="whenWhereTable" style="padding-bottom:0px;color:#FFF;line-height:0%;">
+                    	<tr>
+                        	<td class="whenTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>When:</strong>
+                            </td>
+                            <td class="whencontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	Tuesday, March 1st
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td class="whereTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>Where:</strong>
+                            </td>
+                            <td class="wherecontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	2nd Floor, University College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+<!---------------------------- End Mobile SECTION NUMBER 6 ------------------------>   
+<!---------------------------- Mobile SECTION NUMBER 7 ---------------------------->            
+            <tr>
+            	<td class="mobileHeaderCell" style="padding-left:0px;line-height:0%;">
+                	<span class="mobileHeader" style="color:#FFF;font-size:1px;padding-left:0px;"><strong>7 Off-Campus Happenings</strong></span>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="titleAndContent" style="padding-left:0px;color:#FFF;line-height:0%;">
+                	<span class="mobileSectionTitle" style="font-size:1px;"><strong><em>Title Here</em></strong></span><br />
+                    <span class="mobileContent6" style="font-family:Arial, Helvetica, sans-serif; font-size:1px;">As dit eos doluptas velliquam, officaerum et untemolore, si rescius animus doloreiadsawe sdfwerdfadjkfl;a.</span>
+                </td>
+            </tr>
+            <tr>
+            	<td style="line-height:0%;">
+                	<table class="whenWhereTable" style="padding-bottom:0px;color:#FFF;line-height:0%;">
+                    	<tr>
+                        	<td class="whenTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>When:</strong>
+                            </td>
+                            <td class="whencontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	Tuesday, March 1st
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td class="whereTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>Where:</strong>
+                            </td>
+                            <td class="wherecontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	2nd Floor, University College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+                        <tr>
+            	<td class="titleAndContent" style="padding-left:0px;color:#FFF;line-height:0%;">
+                	<span class="mobileSectionTitle" style="font-size:1px;"><strong><em>Title Here</em></strong></span><br />
+                    <span class="mobileContent6" style="font-family:Arial, Helvetica, sans-serif; font-size:1px;">As dit eos doluptas velliquam, officaerum et untemolore, si rescius animus doloreiadsawe sdfwerdfadjkfl;a.</span>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+                	<table class="whenWhereTable" style="padding-bottom:0px;color:#FFF;line-height:0%;">
+                    	<tr>
+                        	<td class="whenTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>When:</strong>
+                            </td>
+                            <td class="whencontentMobile" style="padding-left:0px;font-size:1px;line-height:0%;">
+                            	Tuesday, March 1st
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td class="whereTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>Where:</strong>
+                            </td>
+                            <td class="wherecontentMobile" style="padding-left:0px;font-size:1px;line-height:0%;">
+                            	2nd Floor, University College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+                        <tr>
+            	<td class="titleAndContent" style="padding-left:0px;color:#FFF;line-height:0%;">
+                	<span class="mobileSectionTitle" style="font-size:1px;"><strong><em>Title Here</em></strong></span><br />
+                    <span class="mobileContent6" style="font-family:Arial, Helvetica, sans-serif; font-size:1px;">As dit eos doluptas velliquam, officaerum et untemolore, si rescius animus doloreiadsawe sdfwerdfadjkfl;a.</span>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+                	<table class="whenWhereTable" style="padding-bottom:0px;color:#FFF;line-height:0%;">
+                    	<tr>
+                        	<td class="whenTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>When:</strong>
+                            </td>
+                            <td class="whencontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	Tuesday, March 1st
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td class="whereTitleMobile" style="padding-left:0px;color:#FFF;font-size:1px;line-height:0%;">
+                            	<strong>Where:</strong>
+                            </td>
+                            <td class="wherecontentMobile" style="padding-left:0px;font-size:1px;color:#FFF;line-height:0%;">
+                            	2nd Floor, University College
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+<!---------------------------- End Mobile SECTION NUMBER 7 ------------------------>            
+            <tr valign="bottom">
+            	<td id="footerImage" valign="bottom" style="background-color:rgb(168,5,50);">
+            		<img src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/footerImage.jpg" />
+                </td>
+            </tr>
+            <tr>
+            	<td align="center" style="background-color:rgb(168,5,50);color:#FFF;font-size:10px;">
+                    <a href="http://www.iupui.edu" style="text-decoration:none;color:#FFF;">Indiana University–Purdue University Indianapolis</a><br />
+                    Copyright 2002 - 2013 The Trustees of Indiana University | <a href="http://www.iu.edu/copyright/complaints.shtml" style="text-decoration:none;color:#FFF;">Copyright Complaints</a> | <a href="http://www.iupui.edu/privacy/" style="text-decoration:none;color:#FFF;">Privacy Policy</a><br /><br />
+                </td>
+            </tr>  
+            <tr>
+            	<td id="footerText" style="text-align:center;font-size:10px;background-color:rgb(200,200,200);">
+                	<p style="font-size:10px;">
+                    <strong>Academic and Career Development, Taylor Hall, 815 W. Michigan Street, Indianapolis, IN, 46202, USA</strong><br /><br />
+                    You are receiving this message because you are a University College student at IUPUI.<br /><br />
+                    If you have questions about advising, career planning, or anything found in this<br />
+                     e-mail please reply to this message.</p>
+                </td>
+            </tr>      
+        </table>
+     </center>   
+</body>
+</html>
             			<tr valign="bottom">
             	<td id="footerImage" valign="bottom" style="background-color:rgb(168,5,50);">
             		<img src="http://media.broadcaster.iu.edu/collegeiupui/academicDeadlines/footerImage.jpg" />
