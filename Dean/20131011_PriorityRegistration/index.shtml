@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IU Branded Email Templates: Hoosier Theme</title>
+
+  <style type="text/css">
+  
+  .iOSFixBlack a
+  {
+	  color:#000000;
+	  text-decoration:none;
+  }
+  
+  .iOSFixGrey a
+  {
+	  color:#676767;
+	  text-decoration:none;
+  }
+  
+  </style>
+  
+     
+</head>
+
+<body style="margin:0; padding:0; background-color:#e0e0e0;">
+
+<!--OUTER TABLE -- SINGLE CELL TO SET THE BACKGROUND COLOR-->
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+<tr>
+	<td valign="top" align="center" style="margin:0; padding:0 0 25px 0; background-color:#e0e0e0;">
+    
+    
+    
+    <!-- *** HEADER TABLE ******************************* 
+         * An embedded table for basic header information
+         * (i.e., view in browser link, branding, and 
+         * a feature image. 
+         ************************************************
+    -->
+    <table width="500" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+    <tr>
+    	<td valign="middle" align="center" style="margin:0; padding:10px 58px; background-color:#e0e0e0; font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:normal; line-height:12px;">
+        
+        <!-- Replace the href value below ("#") with the URL of a copy of this message saved to your website.-->
+        <a href="#" style="color:#990000; text-decoration:none;" target="_blank">View this email in a web browser.</a>
+        
+        </td>
+    </tr>
+    
+    <tr>
+    	<td valign="top" align="center" style="margin:0; padding:0; background-color:#7d110c;"><a href="http://www.iu.edu/" target="_blank"><img src="http://media.broadcaster.iu.edu/collegeiupui/Deans/20131011_PriorityRegistration/acd-email-braning-bar.png" alt="Visit the Indiana University website." width="500" height="49" style="display:block; border:none;" /></a></td>
+    </tr>
+    
+    <tr>
+    	<td valign="top" align="left" style="margin:0; padding:0 20px 15px 100px; background-color:#847870; color:#ffffff; font-family:Arial, Helvetica, sans-serif;font-size:13px; font-weight:normal; line-height:13px;">
+          <a href="#" target="_blank" style="color:#ffffff; text-decoration:none;">ACADEMIC AND CAREER DEVELOPMENT</a></td>
+     </tr>
+     
+     <tr>
+    	<td valign="top" align="center" style="margin:0; padding:0; background-color:#ffffff;"><img src="http://brand.iu.edu/img/html-emails/iu-hoosier/iu-hoosier-sample-feature-500x158.jpg" alt="Students walking near the Sample Gates on the campus of Indiana University Bloomington." style="display:block; border:none;" /></td>
+    </tr>
+
+    </table>
+    <!-- *** END HEADER TABLE *************************** -->
+    
+    
+    
+    <!-- *** MAIN CONTENT ******************************* 
+         * This table contains the main content of your
+         * email message. Use a combination of table, row,
+         * and table data tags in lieu of using paragraph
+         * tags 
+         ************************************************
+    -->
+    
+    <table width="500" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+    <tr>
+    	<!-- *** MAIN CONTENT OUTER STRUCTURE *********** -->
+        <td valign="middle" align="center" style="margin:0; padding:31px 56px 0 56px; background-color:#ffffff;">
+
+
+
+
+
+        <!-- *** MAIN CONTENT INNER STRUCTURE *********** -->
+        <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+		
+        <tr>
+        	<td valign="top" align="left" style="margin:0; padding:0 0 22px 0; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; line-height:23px;">
+            PRIORITY REGISTRATION BEGINS OCTOBER 21, 2013</td>
+        </tr>
+        
+        <tr>
+        	<td valign="top" align="left" style="margin:0; padding:0 0 22px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:normal; line-height:18px;">
+            Vivamus auctor vestibulum scelerisque. Pellentesque quis erat iaculis nibh auctor dictum. Nulla enim erat, convallis non vestibulum a, iaculis ac elit. Vivamus consectetur ligula ac nunc vehicula non ultrices leo volutpat. 
+            </td>
+        </tr>   
+        
+        <tr>
+        	<td valign="top" align="center" style="margin:0; padding:0 0 22px 0;">
+            <!--INNER TABLE TO CREATE BUTTON-->
+            <table cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+            <tr>
+            	<td valign="middle" align="center" style="margin:0; padding:10px; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:normal; line-height:15px; background-color:#e0e0e0;">
+                <a href="#" target="_blank" style="color:#990000; text-decoration:none;">RSVP by June 4, 2013 &#187;</a>
+                </td>
+            </tr>
+            </table>
+            <!--END INNER TABLE TO CREATE BUTTON-->
+            </td>
+        </tr>   
+        
+        <tr>
+        	<td valign="top" align="left" style="margin:0; padding:0 0 22px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:normal; line-height:18px;">
+            Vestibulum tristique libero a leo lobortis gravida. In et porta nisi. Duis facilisis ultricies lectus, ac ornare massa blandit in.</td>
+        </tr>  
+        
+        <tr>
+        	<td valign="top" align="left" style="margin:0; padding:0 0 22px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:normal; line-height:18px;">
+            Suspendisse mattis fringilla nibh ac ultricies. Vestibulum sagittis, augue vel convallis placerat, neque eros tincidunt ante, ut rhoncus tellus augue non ante. Vestibulum congue dictum euismod. 
+            </td>
+        </tr>
+        
+        <tr>
+        	<td valign="top" align="left" style="margin:0; padding:10px 25px 10px 25px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:normal; line-height:20px; border-top:2px #aba59f solid;">
+            <strong>Who we are</strong>&#8212;Praesent lacinia lectus nec urna rhoncus semper.
+            </td>
+        </tr>
+        
+        <tr>
+        	<td valign="top" align="left" style="margin:0; padding:10px 25px 10px 25px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:normal; line-height:20px; border-top:2px #aba59f solid; border-bottom:2px #aba59f solid;">
+            <strong>What we do</strong>&#8212;ulla purus risus, placerat at mattis a, aliquam sit amet sem.
+            </td>
+        </tr> 
+        
+        <tr>
+        	<td valign="top" align="left" style="margin:0; padding:19px 0 22px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:normal; line-height:18px;">
+            Morbi tincidunt, nulla vel dictum dictum, erat nibh blandit eros, at ullamcorper erat turpis non arcu. Nullam sollicitudin tristique commodo. Nam fringilla lacus quam. Vestibulum eget pellentesque est. 
+            </td>
+        </tr>
+        </table>
+        <!-- *** END MAIN CONTENT OUTER STRUCTURE ******* -->
+        
+        
+        
+        
+        
+        </td>
+        <!-- *** END MAIN CONTENT OUTER STRUCTURE ******* -->
+    </tr>
+    </table>
+    
+    
+    <!-- *** END MAIN CONTENT TABLE ********************* -->
+    
+    
+    
+    
+    <!-- *** FOOTER TABLE ******************************* 
+         * Inclues the branding tagline, social media links
+         * and address bar.          
+         ************************************************
+    -->
+    
+    <table width="500" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+    <tr>
+    	<td valign="top" align="center" style="margin:0; padding:0; background-color:#ffffff;">
+        <img src="http://brand.iu.edu/img/html-emails/iu-hoosier/iu-hoosier-what-matters-banner-500x35.png" alt="What matters. Where it matters." width="500" height="35" style="display:block;" />
+        </td>
+    </tr>
+    
+    <tr>
+    	<td valign="top" align="center" style="margin:0; padding:10px 0 0 0; background-color:#7d110c;">
+        <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+        <tr>
+        	<td width="220" valign="top" align="right" style="margin:0; padding:0;">
+            <a href="http://www.facebook.com/sharer.php?u=http://www.iu.edu" target="_blank"><img src="http://brand.iu.edu/img/html-emails/__common/social-media/facebook-icon-32x32.png" alt="Post to Facebook" width="32" height="32" style="border:none;" /></a></td>
+            
+            <td width="60" valign="top" align="center" style="margin:0; padding:0;">
+            <a href="https://twitter.com/intent/tweet?text=Here%27s%20a%20custom%20Twitter%20message%20with%20a%20link%3A&url=http%3A%2F%2Fwww.iu.edu" target="_blank"><img src="http://brand.iu.edu/img/html-emails/__common/social-media/twitter-icon-32x32.png" alt="Post to Twitter" width="32" height="32" style="border:none;" /></a></td>
+            
+            <td width="220" valign="top" align="left" style="margin:0; padding:0;"><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.iu.edu" target="_blank"><img src="http://brand.iu.edu/img/html-emails/__common/social-media/google-plus-icon-32x32.png" alt="Post to Google+" width="32" height="32" style="border:none;" /></a></td>
+        </tr>
+        </table>
+        </td>
+    </tr>
+    
+    <tr>
+    	<td valign="top" align="center" style="background-color:#7d110c; margin:0; padding:10px 20px;; font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:normal; line-height:15px; color:#ffffff;"><a href="#" target="_blank" style="color:#ffffff; text-decoration:underline;">Share this email with a friend</a></td>
+    </tr>
+    
+    <tr>
+    	<td valign="top" align="center" style="margin:0; padding:12px 20px 12px 20px; font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:normal; line-height: 15px; color:#4d5457; background-color:#ffffff; color:#000000;">
+        <address style="font-style:normal;">
+        <a href="http://www.iu.edu/" target="_blank" style="color:#990000; text-decoration:underline;">IUPUI University College</a><br />
+		<span class="iOSFixBlack">815 W. Michigan Street | Taylor Hall | Indianapolis, Indiana 46202</span>
+        </address></td>
+    </tr>
+    
+    </table>
+    
+    
+    
+    </td>
+</tr>
+</table>
+<!--END OUTER TABLE **************************************-->
+
+
+</body>
+</html>
