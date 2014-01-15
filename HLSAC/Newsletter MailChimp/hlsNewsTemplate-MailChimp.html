@@ -1,0 +1,593 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*" />
+        
+        <title>*|MC:SUBJECT|*</title>
+		<style type="text/css">
+			/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* Template Styles */
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable, #templateFooter{
+				/*@editable*/ background-color:#EEEEEE;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#FFFFFF;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:25px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#3F3F38;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:21px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#E95497;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:#E95497;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and border for your email's preheader area.
+			* @theme page
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#E95497;
+				/*@editable*/ border-bottom:none;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:none;
+				/*@editable*/ border-bottom:none;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#3F3F38;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			/**
+			* @tab Header
+			* @section social bar style
+			* @tip Set the background color and borders for your email's header social bar.
+			*/
+			#socialBar{
+				/*@editable*/ background-color:#E95497;
+				/*@editable*/ border:none;
+			}
+			
+			/**
+			* @tab Header
+			* @section button style
+			* @tip Set the styling for your email's button. Choose a style that draws attention.
+			*/
+			#templateButton{
+				-moz-border-radius:5px;
+				-webkit-border-radius:5px;
+				/*@editable*/ background-color:#E95497;
+				border-radius:5px;
+			}
+			
+			/**
+			* @tab Header
+			* @section button style
+			* @tip Set the styling for your email's button. Choose a style that draws attention.
+			*/
+			#templateButtonContent, #templateButtonContent a:link, #templateButtonContent a:visited{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ font-weight:bold;
+				line-height:150%;
+				text-align:center;
+				text-decoration:none;			
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:400px !important;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:none;
+				/*@editable*/ border-bottom:none;
+			}
+			
+			/**
+			* @tab Body
+			* @section upper body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			*/
+			.heroBlock{
+				/*@editable*/ background-color:#E95497;
+			}
+			
+			/**
+			* @tab Body
+			* @section upper body text
+			* @tip Set the styling for your email's upper content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.upperBodyContent{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section upper body link
+			* @tip Set the styling for your email's upper content links. Choose a color that helps them stand out from your text.
+			*/
+			.upperBodyContent a:link, .upperBodyContent a:visited, /* Yahoo! Mail Override */ .upperBodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			/**
+			* @tab Body
+			* @section lower body text
+			* @tip Set the styling for your email's lower content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.lowerBodyContent{
+				/*@editable*/ color:#303030;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section lower body link
+			* @tip Set the styling for your email's lower content links. Choose a color that helps them stand out from your text.
+			*/
+			.lowerBodyContent a:link, .lowerBodyContent a:visited, /* Yahoo! Mail Override */ .lowerBodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.upperBodyContent img, .lowerBodyContent img{
+				display:inline;
+				height:auto !important;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: SIDEBAR /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Sidebar
+			* @section sidebar text
+			* @tip Set the styling for your email's sidebar text. Choose a size and color that is easy to read.
+			*/
+			.sidebarContent{
+				/*@editable*/ color:#303030;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Sidebar
+			* @section sidebar link
+			* @tip Set the styling for your email's sidebar links. Choose a color that helps them stand out from your text.
+			*/
+			.sidebarContent a:link, .sidebarContent a:visited, /* Yahoo! Mail Override */ .sidebarContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#E95497;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.sidebarContent img{
+				display:inline;
+				height:auto;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ border-top:none;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.footerContent img{
+				display:inline;
+			}
+
+			#monkeyRewards img{
+				max-width:190px;
+			}
+		</style>
+	</head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            	<tr>
+                	<td align="center" valign="top">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="100%" id="templatePreheader">
+                            <tr>
+                                <td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600">
+                                    	<tr>
+                                        	<td valign="top" class="preheaderContent" style="padding-right:20px" mc:edit="preheader_content">
+                                                Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+											<td valign="top" width="200" class="preheaderContent" mc:edit="preheader_link">
+                                                Is this email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                            </td>
+											<!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top" id="templateHeader" style="padding-top:20px; padding-bottom:20px;">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600">
+                                        <tr>
+                                            <td width="400" class="headerContent" style="padding-left:20px; padding-right:20px;">
+                                            	<img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/logo_shbcr.png" style="max-width:400px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext />
+                                            </td>
+                                            <td align="right" valign="middle" width="200" style="padding-right:20px;">
+                                                <table border="0" cellpadding="15" cellspacing="0" id="templateButton">
+                                                    <tr>
+                                                        <td align="center" valign="middle" id="templateButtonContent" style="padding-right:20px; padding-left:20px;" mc:edit="app_button">
+                                                            <a href="http://www.mailchimp.com/" target="_blank">Donate Now &raquo;</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>                                                        
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td colspan="2" valign="top" style="padding-top:40px;">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%" id="socialBar">
+                                                	<tr>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/icon_sm_twitter.png" alt="Follow on Twitter" height="14" width="14" />
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link00">
+                                                                        <a href="*|TWITTER:PROFILEURL|*" target="_blank">Follow Us On Twitter</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/icon_sm_facebook.png" alt="Friend on Facebook" height="14" width="14" />
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link01">
+                                                                        <a href="*|FACEBOOK:PROFILEURL|*" target="_blank">Friend Us On Facebook</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/icon_sm_forward.png" alt="Forward to Friend" height="14" width="14" />
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link02">
+                                                                        <a href="*|FORWARD|*" target="_blank">Forward To A Friend</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="20" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                            <td align="center" valign="top" style="padding-top:20px; padding-bottom:40px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="560">
+                                                	<tr>
+                                                    	<td valign="top" style="border-bottom:1px solid #CCCCCC; padding-bottom:20px;">
+                                                        	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            	<tr mc:repeatable>
+                                                                	<td align="center" valign="top">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="center" valign="middle">
+                                                                                    <img src="http://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/judith.jpg" style="max-width:560px;" mc:label="image" mc:edit="hero_image" mc:allowtext />
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td valign="top" class="heroBlock upperBodyContent" style="padding:20px;" mc:edit="body_content00">
+                                                                                    <h1>Judith walks for her mom</h1>
+                                                                                    Get to know Judith and learn why this year's half-marathon is so important to her. <a href="http://www.mailchimp.com/" target="_blank">Read her story &raquo;</a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td align="center" valign="top" style="padding-top:20px;">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td valign="top" width="360" class="lowerBodyContent" style="padding-right:40px;" mc:edit="body_content01">
+                                                                        <h2>To our loyal supporters</h2>
+                                                                        We hope you're having a great summer so far. Since we're in the middle of wedding season, we'd like to share a unique giving opportunity. We've had some brides ask us if they could donate to Sacred Heart Breast Cancer Research in lieu of wedding favors.
+                                                                        <br />
+                                                                        <br />
+                                                                        The answer is YES!
+                                                                        <br />
+                                                                        <br />
+                                                                        We'll even provide you with table cards, pink ribbons and thank-you cards for your guests. A donation to breast cancer research is wonderful way to give back at your wedding, especially if you or a loved on has been affected by breast cancer. 
+                                                                        <br />
+                                                                        <br />
+                                                                        With gratitude,
+                                                                        <br />
+                                                                        <br />
+                                                                        The SHBCR team
+                                                                    </td>
+                                                                    <td valign="top" width="200" class="sidebarContent" mc:edit="sidebar_content">
+                                                                        <h3>Go pink!</h3>
+                                                                        Visit our store to purchase a variety of items, with all profits going to breast cancer research.
+                                                                        <br />
+                                                                        <br />
+                                                                        <h3>Half-Marathon</h3>
+                                                                        We're excited about this year's half-marathon starting at Empire Park on August 20! Register for the run/walk on the <a href="http://www.mailchimp.com/" target="_blank">SHBCR website</a>.
+                                                                        <br />
+                                                                        <br />
+                                                                        <h3>Donation buttons</h3>
+                                                                        We have new donation buttons that you can place on your website! Visit <a href="http://www.mailchimp.com/" target="_blank">our website</a> to download one of our four buttons.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" id="templateFooter" style="padding-top:20px; padding-bottom:40px;">
+                        <!-- // Begin Template Footer \\ -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600">
+                            <tr>
+                                <td valign="top" class="footerContent">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td valign="top" style="padding-right:20px;" mc:edit="footer">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|**|END:IF|* 
+                                            </td>
+                                            <td valign="top" width="200" id="monkeyRewards" mc:edit="monkeyrewards">
+                                                *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" valign="middle" style="padding-top:20px;" mc:edit="utility">
+												<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Footer \\ -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
