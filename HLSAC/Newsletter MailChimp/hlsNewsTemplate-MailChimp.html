@@ -121,7 +121,6 @@
 			* @theme page
 			*/
 			#templatePreheader{
-				/*@editable*/ background-color:#7C161A;
 				/*@editable*/ border-bottom:none;
 			}
 
@@ -131,7 +130,7 @@
 			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
 			*/
 			.preheaderContent{
-				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ color:#000;
 				/*@editable*/ font-family:Helvetica;
 				/*@editable*/ font-size:10px;
 				/*@editable*/ line-height:125%;
@@ -144,7 +143,7 @@
 			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
 			*/
 			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ color:#000;
 				/*@editable*/ font-weight:normal;
 				/*@editable*/ text-decoration:underline;
 			}
@@ -384,6 +383,10 @@
 			#monkeyRewards img{
 				max-width:190px;
 			}
+			
+			.lowerfooter td{
+				background-color:rgb(124,22,26);	
+			}
 		</style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -418,7 +421,7 @@
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600">
                                         <tr>
                                             <td width="560" class="headerContent" style="background-color:#7C161A;">
-                                            	<img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/hlsHeaderImage.png" style="min-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext="">
+                                            	<img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/Header.png" style="min-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext="">
                                             </td>
                                         </tr>
                                         <tr>
@@ -545,16 +548,22 @@
                         </table>
                     </td>
                 </tr>
-                <tr style="background-image:url('https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/footerBackground.png'); background-repeat:repeat-x;">
-                	<td align="center">
-                    	<img style="vertical-align:bottom;" src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/emailfooter2.png">
+                <tr>
+                	<td>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" height="42">
+                            <tr>
+                                <td width="600" align="center">
+                                    <img style="vertical-align:bottom;" src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/emailfooter2.png">
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
                 <tr>
-                	<td style="background-color: #7C161A;">
-                    	<table border="0" cellpadding="20" cellspacing="0" width="600px" align="center" id="footersocialBar">
+                	<td align="center" width="600">
+                    	<table border="0" cellpadding="20" cellspacing="0" width="600" align="center" id="footersocialBar" style="background-color: #7C161A;">
                                                 	<tr>
-                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
                                                         	<table border="0" cellpadding="0" cellspacing="0">
                                                             	<tr>
                                                                     <td align="left" valign="middle" width="14" style="padding-right:6px;">
@@ -566,7 +575,7 @@
                                                                 </tr>
                                                             </table>
                                                         </td>
-                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
                                                         	<table border="0" cellpadding="0" cellspacing="0">
                                                             	<tr>
                                                                     <td align="left" valign="middle" width="14" style="padding-right:6px;">
@@ -578,7 +587,7 @@
                                                                 </tr>
                                                             </table>
                                                         </td>
-                                                        <td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable>
+                                                        <td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
                                                         	<table border="0" cellpadding="0" cellspacing="0">
                                                             	<tr>
                                                                     <td align="left" valign="middle" width="14" style="padding-right:6px;">
@@ -616,7 +625,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                    	<td colspan="2" align="center">
+                                                    	<td colspan="2" align="center" style="padding-left:20px;">
                                                         	<table width="500px;">
                                                             	<tr>
                                                                 	<td align="center"><p style="font-size:10px;"><strong>Hine Hall - IP 241</strong></p></td>
@@ -646,8 +655,8 @@
                                         <tr>
                                             <td align="center" colspan="2" valign="middle" style="padding-top:20px;" mc:edit="utility">
                                             	This email was sent to *|EMAIL|*
-                                                <br />
-												<a href="*|LIST:DESCRIPTION|*">Why did I get this?</a> | <a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                                <br>
+												<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
                                             </td>
                                         </tr>
                                     </table>
