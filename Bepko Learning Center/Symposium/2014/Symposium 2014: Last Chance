@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<link href="http://fonts.googleapis.com/css?family=Ubuntu:700italic" rel="stylesheet" type="text/css" />
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<!-- Facebook sharing information tags -->
+		<meta content="*|MC:SUBJECT|*" property="og:title" />
+		<title>*|MC:SUBJECT|*</title>
+		<style type="text/css">
+		@media only screen and (max-width: 489px){
+			p{
+				font-size:20px !important;	
+			}
+		}
+		
+		#outlook a{
+			padding:0;
+		}
+		#outlook em{
+			line-height: 100% !important;
+		}
+		
+		body{
+			width:100% !important;
+		}
+		body{
+			-webkit-text-size-adjust:none;
+			-webkit-font-smoothing: antialiased;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		p{
+			line-height:150% !important;	
+		}		
+		a{
+			color: #a90532;
+		}
+		img{
+			border:none;
+			font-size:14px;
+			font-weight:bold;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+			text-transform:capitalize;
+		}
+		#backgroundTable{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		body,.backgroundTable{
+			background-color:#FAFAFA;
+		}
+		#templateContainer{
+			border:1px solid #DDDDDD;
+		}
+		h1,.h1{
+			color:#202020;
+			display:block;
+			font-family:Arial;
+			font-size:34px;
+			font-weight:bold;
+			line-height:100%;
+			margin-bottom:10px;
+			text-align:left;
+		}
+		h2,.h2{
+			color:#202020;
+			display:block;
+			//font-family:Arial;
+			font-size:30px;
+			font-weight:bold;
+			line-height:100%;
+			margin-bottom:10px;
+			text-align:left;
+		}
+		h3,.h3{
+			color:#202020;
+			display:block;
+			font-family:Arial;
+			font-size:26px;
+			font-weight:bold;
+			line-height:100%;
+			margin-bottom:10px;
+			text-align:left;
+		}
+		h4,.h4{
+			color:#202020;
+			display:block;
+			font-family:Arial;
+			font-size:22px;
+			font-weight:bold;
+			line-height:100%;
+			margin-bottom:10px;
+			text-align:left;
+		}
+		#templatePreheader{
+			background-color:#FAFAFA;
+		}
+		.preheaderContent div{
+			color:#505050;
+			font-family:Arial;
+			font-size:10px;
+			line-height:100%;
+			text-align:left;
+		}
+		.preheaderContent div a:link,.preheaderContent div a:visited{
+			color:#336699;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		.preheaderContent div img{
+			height:auto;
+			max-width:600px;
+		}
+		#templateHeader{
+			background-color:#FFFFFF;
+			border-bottom:0;
+		}
+		.headerContent{
+			color:#202020;
+			font-family:Arial;
+			font-size:34px;
+			font-weight:bold;
+			line-height:100%;
+			padding:0;
+			text-align:center;
+			vertical-align:middle;
+		}
+		.headerContent a:link,.headerContent a:visited{
+			color:#336699;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#headerImage{
+			height:auto;
+			max-width:600px !important;
+		}
+		#templateContainer,.bodyContent{
+			background-color:#FDFDFD;
+		}
+		.bodyContent div{
+			color:#505050;
+			font-family:Arial;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		.bodyContent div a:link,.bodyContent div a:visited{
+			color:#336699;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		.bodyContent img{
+			display:inline;
+			margin-bottom:10px;
+		}
+		#templateFooter{
+			background-color:#FDFDFD;
+			border-top:0;
+		}
+		.footerContent div{
+			color:#707070;
+			font-family:Arial;
+			font-size:12px;
+			line-height:125%;
+			text-align:left;
+		}
+		.footerContent div a:link,.footerContent div a:visited{
+			color:#336699;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		.footerContent img{
+			display:inline;
+		}
+		#social{
+			background-color:#FAFAFA;
+			border:1px solid #F5F5F5;
+		}
+		#social div{
+			text-align:center;
+		}
+		#monkeyRewards img{
+			max-width:160px;
+		}
+<<<<<<< HEAD
+<<<<<<< HEAD
+</style>
+	</head>
+	<body leftmargin="0" marginheight="0" marginwidth="0" offset="0" style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #F3F3F3;width: 100% !important;" topmargin="0">
+	</body>
+</html>
+<link href="http://fonts.googleapis.com/css?family=Ubuntu:700italic" rel="stylesheet" type="text/css" />
+<center>
+	<table border="0" cellpadding="0" cellspacing="0" height="100%" id="backgroundTable" style="margin: 0;padding: 0;height: 100% !important;width: 100% !important;" width="100%">
+		<tbody>
+			<tr>
+				<td align="center" valign="top">
+					<!-- // Begin Template Preheader \\ -->
+					<table border="0" cellpadding="10" cellspacing="0" id="templatePreheader" style="background-color: #FFF; border-top: 1px #ddd solid; border-left: 1px #ddd solid; border-right: 1px #ddd solid;" width="600">
+						<tbody>
+							<tr>
+								<td class="preheaderContent" valign="top">
+									<!-- // Begin Module: Standard Preheader \\ -->
+									<table border="0" cellpadding="10" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td valign="top">
+													<div style="color: #505050;font-family: Arial;font-size: 10px;line-height: 120%;text-align: center;">
+														Saturday is the last day to register for the 2014 IUPUI National Mentoring Symposium</div>
+													<div style="color: #a90532;font-family: Arial;font-size: 10px;line-height: 120%;text-align: center;">
+														<!-- *|IFNOT:ARCHIVE_PAGE|* -->E-mail not displaying correctly? <a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%" style="color: #a90532;font-weight: normal;text-decoration: underline;" target="_blank">View in a browser</a>.<!-- *|END:IF|* --></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- // End Module: Standard Preheader \\ --></td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- // End Template Preheader \\ -->
+					<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="border: 1px solid #DDDDDD;background-color: #FDFDFD;" width="600">
+						<tbody>
+							<tr>
+								<td align="center" valign="top">
+									<!-- // Begin Template Header \\ -->
+									<table border="0" cellpadding="0" cellspacing="0" id="templateHeader" style="background-color: #FFFFFF;border-bottom: 0;" width="600">
+										<tbody>
+											<tr>
+												<td class="headerContent" style="color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;">
+													<!-- // Begin Module: Standard Header Image \\ --><img alt="" border="0" id="headerImage campaign-icon" src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium2014/nationalSymposium2014Header.png" style="margin: 0;padding: 0;max-width: 600px;border: none;font-size: 14px;font-weight: bold;height: auto;line-height: 100%;outline: none;text-decoration: none;text-transform: capitalize;" /> <!-- // End Module: Standard Header Image \\ --></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- // End Template Header \\ --></td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+									<!-- // Begin Template Body \\ -->
+									<table border="0" cellpadding="0" cellspacing="0" id="templateBody" width="600">
+										<tbody>
+											<tr>
+												<td class="bodyContent" style="background-color: #FDFDFD;" valign="top">
+													<!-- // Begin Module: Standard Content \\ -->
+													<table border="0" cellpadding="20" cellspacing="0" width="100%">
+														<tbody>
+															<tr>
+																<td valign="top">
+																	<img alt="" height="45" src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium/saveTheDateText.jpg" width="384" /><!--</p>-->
+																	<p style="color: #505050;font-family: Arial;font-size: 14px;text-align: left;line-height:150% !important;">
+																		The IUPUI National Mentoring Symposium started as an extension of training for IUPUI mentoring components and is now a national conference. Over the past 11 years, we have seen numerous inspirational speakers, diverse concurrent sessions about mentoring best practices, and attendees in the hundreds coming together to share their experiences and learn from others in the peer mentor role.</p>																	
+																	<p style="color: #505050;font-family: Arial;font-size: 14px;text-align: left;line-height:150% !important;">
+																		The last day to register for this year's symposium is this September 20, 2014. Don't miss this unique opportunity to motivate your mentors through education and resources, foster an environment for collaboration with peers across the nation, and inspire your peer mentors to continue making an impact on higher education.</p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+													<!-- // End Module: Standard Content \\ --></td>
+											</tr>
+											<tr>
+												<td height="75" valign="baseline">
+													<table align="center" cellpadding="10" cellspacing="10">
+														<tbody>
+                                                        <tr>
+																		<td style="width:150px;background:#a90533;border-radius:4px;-webkit-border-radius:4px;text-align:center;">
+																			<a href="http://symposium.iupui.edu/Home.aspx" style="display:block;text-decoration:none;font-family:Arial,sans-serif;font-weight:bold;font-size:12px;color:#FFFFFF">Register</a></td>
+																	</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table style="margin-left:20px;">
+														<tbody>
+															<tr>
+																<td style="padding-right:10px;">
+																	<img src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium2014/speaker.jpg" /></td>
+																<td style="padding-right:10px;">
+																	<img src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium2014/studentsWriting.jpg" /></td>
+																<td style="padding-right:10px;">
+																	<img src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium2014/joshuaSpeaker.jpg" /></td>
+																<td style="padding-right:10px;">
+																	<img src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium2014/twoGirls.jpg" /></td>
+																<td>
+																	<img src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium2014/standing.jpg" /></td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td style="padding-left:20px;padding-right:20px;">
+													<p style="color: #505050;font-family: Arial;font-size: 14px;text-align: left;line-height:150% !important;">
+														Stay tuned for more information about the symposium. We'll keep you informed about this year's schedule, keynotes, and more. In the mean time, <a href="http://www.flickr.com/photos/ucolmedia/sets/72157643064795954/">check out some photos from last year</a>!</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- // End Template Body \\ --></td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+									<!-- // Begin Template Footer \\ -->
+									<table border="0" cellpadding="10" cellspacing="0" id="templateFooter" style="background-color: #F3F2EC;border-top: 0;" width="600">
+										<tbody>
+											<tr>
+												<td class="footerContent" valign="top">
+													<!-- // Begin Module: Standard Footer \\ -->
+													<table border="0" cellspacing="0" width="100%">
+														<tbody>
+															<tr>
+																<td colspan="2" style="border-top: 1px solid #F5F5F5;" valign="middle">
+																	<table align="center">
+																		<tbody>
+																			<tr>
+																				<td style="color: #000000;font-family: Arial;font-size: 10px;text-align: center;display:table-cell;vertical-align:middle;">
+																					<img src="http://media.broadcaster.iu.edu/collegeiupui/BLC/Symposium2014/newIUSymbol.png" /></td>
+																				<td style="color: #000000;font-family: Arial;font-size: 10px;text-align: center;display:table-cell;vertical-align:middle;">
+																					Copyright © 2002-2014 The Trustees of Indiana University — <a href="http://www.indiana.edu/comments/complaint.shtml" style="color:#000000;text-decoration:none;">Copyright Complaints</a> | <a href="http://www.iupui.edu/privacy/" style="color:#000000;text-decoration:none;">Privacy Notice</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+													<!-- // End Module: Standard Footer \\ --></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- // End Template Footer \\ --></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</center>
+<br />
