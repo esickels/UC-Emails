@@ -1,0 +1,648 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*" />
+        
+        <title>HLS Summer Hours</title>
+		<style type="text/css">
+			/* Client-specific Styles */
+			
+			#outlook a{padding:0;} *{font:"Trebuchet MS", Arial, Helvetica, sans-serif}/* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* Template Styles */
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable, #templateFooter{
+				/*@editable*/ background-color:#A9A9A9;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#7C161A;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:25px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#000;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:21px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#486A7B;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:#E95497;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and border for your email's preheader area.
+			* @theme page
+			*/
+			#templatePreheader{
+				/*@editable*/ border-bottom:none;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#000;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#000;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:none;
+				/*@editable*/ border-bottom:none;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#3F3F38;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			/**
+			* @tab Header
+			* @section social bar style
+			* @tip Set the background color and borders for your email's header social bar.
+			*/
+			#socialBar{
+				/*@editable*/ background-color:#486A7B;
+				/*@editable*/ border:none;
+			}
+			
+			/**
+			* @tab Header
+			* @section button style
+			* @tip Set the styling for your email's button. Choose a style that draws attention.
+			*/
+			#templateButton{
+				-moz-border-radius:5px;
+				-webkit-border-radius:5px;
+				/*@editable*/ background-color:#E95497;
+				border-radius:5px;
+			}
+			
+			/**
+			* @tab Header
+			* @section button style
+			* @tip Set the styling for your email's button. Choose a style that draws attention.
+			*/
+			#templateButtonContent, #templateButtonContent a:link, #templateButtonContent a:visited{
+				/*@editable*/ color:#FFFFFF;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ font-weight:bold;
+				line-height:150%;
+				text-align:center;
+				text-decoration:none;			
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:400px !important;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:none;
+				/*@editable*/ border-bottom:none;
+			}
+			
+			/**
+			* @tab Body
+			* @section upper body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			*/
+			.heroBlock{
+				/*@editable*/ background-color:#ffffff;
+			}
+			
+			/**
+			* @tab Body
+			* @section upper body text
+			* @tip Set the styling for your email's upper content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.upperBodyContent{
+				/*@editable*/ color:#000;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section upper body link
+			* @tip Set the styling for your email's upper content links. Choose a color that helps them stand out from your text.
+			*/
+			.upperBodyContent a:link, .upperBodyContent a:visited, /* Yahoo! Mail Override */ .upperBodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#7C161A;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			/**
+			* @tab Body
+			* @section lower body text
+			* @tip Set the styling for your email's lower content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.lowerBodyContent{
+				/*@editable*/ color:#303030;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section lower body link
+			* @tip Set the styling for your email's lower content links. Choose a color that helps them stand out from your text.
+			*/
+			.lowerBodyContent a:link, .lowerBodyContent a:visited, /* Yahoo! Mail Override */ .lowerBodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.upperBodyContent img, .lowerBodyContent img{
+				display:inline;
+				height:auto !important;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: SIDEBAR /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Sidebar
+			* @section sidebar text
+			* @tip Set the styling for your email's sidebar text. Choose a size and color that is easy to read.
+			*/
+			.sidebarContent{
+				/*@editable*/ color:#303030;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:13px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Sidebar
+			* @section sidebar link
+			* @tip Set the styling for your email's sidebar links. Choose a color that helps them stand out from your text.
+			*/
+			.sidebarContent a:link, .sidebarContent a:visited, /* Yahoo! Mail Override */ .sidebarContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#486A7B;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.sidebarContent img{
+				display:inline;
+				height:auto;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ border-top:none;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ background-color: #A9A9A9;
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.footerContent img{
+				display:inline;
+			}
+
+			#monkeyRewards img{
+				max-width:190px;
+			}
+			
+			.lowerfooter td{
+				background-color:rgb(124,22,26);	
+			}
+			
+			.hours td{
+				padding:5px;}
+		</style>
+	</head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            	<tr>
+                	<td align="center" valign="top">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="100%" id="templatePreheader">
+                            <tr>
+                                <td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600">
+                                    	<tr>
+                                        	<td valign="top" class="preheaderContent" width="400" style="padding-right:20px;padding-left:20px;" mc:edit="preheader_content">
+                                            Exploring? Planning? We're here all summer!
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+											<td valign="top" width="200" class="preheaderContent" mc:edit="preheader_link" style="padding-right:10px;">
+                                                Is this email not displaying correctly?<br /><a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%">View it in your browser</a>.
+                                            </td>
+											<!-- *|END:IF|* -->
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top" id="templateHeader" style="padding-bottom:20px;">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600">
+                                        <tr>
+                                            <td width="560" class="headerContent" style="background-color:#7C161A;">
+                                            	<img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/RedHeader.png" style="min-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowtext="">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td colspan="2" valign="top">
+                                            	<table border="0" cellpadding="20" cellspacing="0" width="100%" id="socialBar">
+                                                	<tr>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <a href="*|FACEBOOK:PROFILEURL|*" target="_blank"><img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/facebook.png" alt="Friend on Facebook" height="25" width="25"></a>
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link01">
+                                                                        <a href="https://www.facebook.com/IUPUIHLS" target="_blank"><strong>Like Us On Facebook</strong></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <a href="Newsletter MailChimp/*/FORWARD/*" target="_blank"><img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/fwdFriend.png" alt="Forward to Friend" height="25" width="25"></a>
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link02">
+                                                                        <a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank"><strong>Forward To A Friend</strong></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <a href="http://hls.iupui.edu/"><img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/visitWeb.png" alt="Visit Website" height="25" width="25"></a>
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent"  mc:edit="social_link03">
+                                                                        <a href="http://hls.iupui.edu/"><strong>Visit Website</strong></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="20" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                            <td align="center" valign="top" style="padding-top:20px; padding-bottom:40px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="560">
+                                                	<tr>
+                                                    	<td valign="top" style="border-bottom:1px solid #CCCCCC; padding-bottom:20px;">
+                                                        	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            	<tr mc:repeatable="">
+                                                                	<td align="center" valign="top">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                         
+                                                                            <tr>
+                                                                                <td valign="top" class="heroBlock upperBodyContent" style="padding-top:5px;" mc:edit="body_content00">
+                                                                                    <h1>The Health and Life Sciences Advising Center is open for the summer!</h1>
+                                                                                   <p class="upperBodyContent">Take a break from the sun and visit our advisors to get a jump start on your academic and career plans for fall.  Questions about application processes?  Not sure you’ve chosen the “right” major?  Want to talk through next steps for getting involved in experiences to enhance your education?  We’re here all summer during the following hours.</p>
+                                                                                   <center><table class="hours"><tr bgcolor="#CCCCCC"><th>Day</th>
+                                                                                   <th colspan="2">Hours</th></tr><td>Monday</td><td>8 a.m.–9 a.m.</td><td>11 a.m.–5 p.m.</td></tr><tr bgcolor="#eeeeee"><Td>Tuesday</Td><td>2 p.m.–5 p.m.</td><td></td></tr><tr><td>Wednesday</td><td>8 a.m.–9 a.m.</td><td>4:30 p.m.–6 p.m.</td></tr><tr bgcolor="#eeeeee"><td>Thursday</td><td>8 a.m.–9 a.m.</td><td>11 a.m.–5 p.m.</td></tr><tr><td>Friday</td><td>2 p.m.–5 p.m.</td><td></td></tr></table>
+                                                                                     <p class="upperBodyContent">Appointments can be made online or by calling (317) 274-4857.</p>
+                                                                                  <table align="center" cellpadding="10" cellspacing="10" width="200">
+																<tbody>
+																	<tr>
+																		<td style="width:150px;background:#a90533;border-radius:4px;-webkit-border-radius:4px;text-align:center;">
+																			<a href="http://hls.iupui.edu/appointments.aspx" style="display:block;text-decoration:none;font-family:Arial,sans-serif;font-weight:bold;font-size:12px;color:#FFFFFF">Schedule an Appointment</a></td>
+								
+																	</tr>
+																</tbody>
+															</table></center></td></tr></table>
+                                                                                   
+                                                                          
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td align="center" valign="top" style="padding-top:20px;">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                          
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                	<td>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" height="42">
+                            <tr>
+                                <td width="600" align="center">
+                                    <img style="vertical-align:bottom;" src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/emailfooter2.png">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                	<td align="center" width="600">
+                    	<table border="0" cellpadding="20" cellspacing="0" width="600" align="center" id="footersocialBar" style="background-color: #7C161A;">
+                                                	<tr>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <a href="*|FACEBOOK:PROFILEURL|*" target="_blank"><img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/redfacebook.png" alt="Friend on Facebook" height="25" width="25"></a>
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link01">
+                                                                        <a href="https://www.facebook.com/IUPUIHLS" target="_blank"><strong>Like Us On Facebook</strong></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    	<td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <a href="Newsletter MailChimp/*/FORWARD/*" target="_blank"><img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/redfwdFriend.png" alt="Forward to Friend" height="25" width="25"></a>
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link02">
+                                                                        <a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank"><strong>Forward To A Friend</strong></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td valign="top" style="padding-top:10px; padding-bottom:10px;" mc:hideable="">
+                                                        	<table border="0" cellpadding="0" cellspacing="0">
+                                                            	<tr>
+                                                                    <td align="left" valign="middle" width="14" style="padding-right:6px;">
+                                                                        <a href="http://hls.iupui.edu/"><img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/redvisitWeb.png" alt="Visit Website" height="25" width="25"></a>
+                                                                    </td>
+                                                                    <td valign="middle" class="headerContent" mc:edit="social_link03">
+                                                                        <a href="http://hls.iupui.edu/"><strong>Visit Website</strong></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" id="templateFooter" style="padding-top:20px; padding-bottom:40px;">
+                        <!-- // Begin Template Footer \\ -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600">
+                            <tr>
+                                <td valign="top" class="footerContent">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td valign="top" style="padding-right:20px;">
+                                                <table align="center">
+                                                	<tr>
+                                                    	<td style="padding-left:20px;"><img src="https://gallery.mailchimp.com/91a2ab3e153c1bea95cfb0905/images/newIUSymbol.png" alt="Visit Website" height="20" width="14">
+                                                        </td>
+                                                        <td><p style="font-size:10px;"><strong>Copyright &copy; %%$builtin.year%% The Trustees of Indiana University, <a style="color:rgb(124, 22, 26);text-decoration:none;font-weight:bold;" href="http://www.iu.edu/copyright/complaints.shtml">Copyright Complaints</a>, <a style="color:rgb(124, 22, 26);text-decoration:none;font-weight:bold;" href="http://www.iupui.edu/privacy/">Privacy Policy</a></strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td colspan="2" align="center">
+                                                        	<a href="http://hls.iupui.edu/Home.aspx" style="color:#7C161A; text-decoration:none;">Health and Life Sciences Advising Center</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td colspan="2" align="center" style="padding-left:20px;">
+                                                        	<table width="500px;">
+                                                            	<tr>
+                                                                	<td align="center"><p style="font-size:10px;"><strong>Hine Hall - IP 241</strong></p></td>
+                                                                    <td align="center"><p style="font-size:10px;"><strong>850 West Michigan Street</strong></p></td>
+                                                                    <td align="center"><p style="font-size:10px;"><strong>Indianapolis, IN 46202</strong></p></td>
+                                                                    <td align="center"><p style="font-size:10px;"><strong>(317) 274-4857</strong></p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                
+                                                <!--<br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|**|END:IF|* -->
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td align="center" valign="top" width="200" id="monkeyRewards" mc:edit="monkeyrewards">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" colspan="2" valign="middle" style="padding-top:20px;" mc:edit="utility">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Footer \\ -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
