@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<title>IUPUI Classes Start August 19</title>
+		<style type="text/css">
+/* ///////// CLIENT-SPECIFIC STYLES ///////// */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* ///////// RESET STYLES ///////// */
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+table{border-collapse:collapse !important;}
+body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+/* ///////// TEMPLATE STYLES ///////// */
+
+#bodyCell{padding:20px;}
+#templateContainer{width:600px;}
+
+/* ========== Page Styles ========== */
+
+/**
+* @tab Page
+* @section background style
+* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+* @theme page
+*/
+body, #bodyTable{
+/*@editable*/ background-color:#DEE0E2;
+}
+
+/**
+* @tab Page
+* @section background style
+* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+* @theme page
+*/
+#bodyCell{
+/*@editable*/ border-top:4px solid #BBBBBB;
+}
+
+/**
+* @tab Page
+* @section email border
+* @tip Set the border for your email.
+*/
+#templateContainer{
+/*@editable*/ border:1px solid #BBBBBB;
+}
+
+/**
+* @tab Page
+* @section heading 1
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+h1{
+/*@editable*/ color:#202020 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:26px;
+/*@editable*/ font-style:normal;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+
+/**
+* @tab Page
+* @section heading 2
+* @tip Set the styling for all second-level headings in your emails.
+* @style heading 2
+*/
+h2{
+/*@editable*/ color:#404040 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:20px;
+/*@editable*/ font-style:normal;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+
+/**
+* @tab Page
+* @section heading 3
+* @tip Set the styling for all third-level headings in your emails.
+* @style heading 3
+*/
+h3{
+/*@editable*/ color:#606060 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:16px;
+/*@editable*/ font-style:italic;
+/*@editable*/ font-weight:normal;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+
+/**
+* @tab Page
+* @section heading 4
+* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+* @style heading 4
+*/
+h4{
+/*@editable*/ color:#808080 !important;
+display:block;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:14px;
+/*@editable*/ font-style:italic;
+/*@editable*/ font-weight:normal;
+/*@editable*/ line-height:100%;
+/*@editable*/ letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+/*@editable*/ text-align:left;
+}
+
+/* ========== Header Styles ========== */
+
+/**
+* @tab Header
+* @section preheader style
+* @tip Set the background color and bottom border for your email's preheader area.
+* @theme header
+*/
+#templatePreheader{
+/*@editable*/ background-color:#F4F4F4;
+/*@editable*/ border-bottom:1px solid #CCCCCC;
+}
+
+/**
+* @tab Header
+* @section preheader text
+* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+*/
+.preheaderContent{
+/*@editable*/ color:#808080;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:10px;
+/*@editable*/ line-height:125%;
+/*@editable*/ text-align:left;
+}
+
+/**
+* @tab Header
+* @section preheader link
+* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+*/
+.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#606060;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+
+/**
+* @tab Header
+* @section header style
+* @tip Set the background color and borders for your email's header area.
+* @theme header
+*/
+#templateHeader{
+/*@editable*/ background-color:#F4F4F4;
+/*@editable*/ border-top:1px solid #FFFFFF;
+/*@editable*/ border-bottom:1px solid #CCCCCC;
+}
+
+/**
+* @tab Header
+* @section header text
+* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+*/
+.headerContent{
+/*@editable*/ color:#505050;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:20px;
+/*@editable*/ font-weight:bold;
+/*@editable*/ line-height:100%;
+/*@editable*/ padding-top:0;
+/*@editable*/ padding-right:0;
+/*@editable*/ padding-bottom:0;
+/*@editable*/ padding-left:0;
+/*@editable*/ text-align:left;
+/*@editable*/ vertical-align:middle;
+}
+
+/**
+* @tab Header
+* @section header link
+* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+*/
+.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#EB4102;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+
+#headerImage{
+height:auto;
+max-width:600px;
+}
+
+/* ========== Body Styles ========== */
+
+/**
+* @tab Body
+* @section body style
+* @tip Set the background color and borders for your email's body area.
+*/
+#templateBody{
+/*@editable*/ background-color:#F4F4F4;
+/*@editable*/ border-top:1px solid #FFFFFF;
+/*@editable*/ border-bottom:1px solid #CCCCCC;
+}
+
+/**
+* @tab Body
+* @section body text
+* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+* @theme main
+*/
+.bodyContent{
+/*@editable*/ color:#505050;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:14px;
+/*@editable*/ line-height:150%;
+padding-right:20px;
+padding-bottom:20px;
+padding-left:20px;
+/*@editable*/ text-align:left;
+}
+
+/**
+* @tab Body
+* @section body link
+* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+/*@editable*/ color:#EB4102;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+
+.bodyContent img{
+display:inline;
+height:auto;
+max-width:560px;
+}
+
+/* ========== Footer Styles ========== */
+
+/**
+* @tab Footer
+* @section footer style
+* @tip Set the background color and borders for your email's footer area.
+* @theme footer
+*/
+#templateFooter{
+/*@editable*/ background-color:#F4F4F4;
+/*@editable*/ border-top:1px solid #FFFFFF;
+}
+
+/**
+* @tab Footer
+* @section footer text
+* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+* @theme footer
+*/
+.footerContent{
+/*@editable*/ color:#808080;
+/*@editable*/ font-family:Helvetica;
+/*@editable*/ font-size:10px;
+/*@editable*/ line-height:150%;
+padding-top:20px;
+padding-right:20px;
+padding-bottom:20px;
+padding-left:20px;
+/*@editable*/ text-align:left;
+}
+
+/**
+* @tab Footer
+* @section footer link
+* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+*/
+.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+/*@editable*/ color:#606060;
+/*@editable*/ font-weight:normal;
+/*@editable*/ text-decoration:underline;
+}
+
+/* ///////// MOBILE STYLES ///////// */
+
+            @media only screen and (max-width: 489px){
+/* /////// CLIENT-SPECIFIC MOBILE STYLES /////// */
+body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+/* /////// MOBILE RESET STYLES /////// */
+#bodyCell{padding:10px !important;}
+
+/* /////// MOBILE TEMPLATE STYLES /////// */
+
+/* ======== Page Styles ======== */
+
+/**
+* @tab Mobile Styles
+* @section template width
+* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+*/
+#templateContainer{
+max-width:600px !important;
+/*@editable*/ width:100% !important;
+}
+
+/**
+* @tab Mobile Styles
+* @section heading 1
+* @tip Make the first-level headings larger in size for better readability on small screens.
+*/
+h1{
+/*@editable*/ font-size:24px !important;
+/*@editable*/ line-height:100% !important;
+}
+
+/**
+* @tab Mobile Styles
+* @section heading 2
+* @tip Make the second-level headings larger in size for better readability on small screens.
+*/
+h2{
+/*@editable*/ font-size:20px !important;
+/*@editable*/ line-height:100% !important;
+}
+
+/**
+* @tab Mobile Styles
+* @section heading 3
+* @tip Make the third-level headings larger in size for better readability on small screens.
+*/
+h3{
+/*@editable*/ font-size:18px !important;
+/*@editable*/ line-height:100% !important;
+}
+
+/**
+* @tab Mobile Styles
+* @section heading 4
+* @tip Make the fourth-level headings larger in size for better readability on small screens.
+*/
+h4{
+/*@editable*/ font-size:16px !important;
+/*@editable*/ line-height:100% !important;
+}
+
+/* ======== Header Styles ======== */
+
+#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+/**
+* @tab Mobile Styles
+* @section header image
+* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+*/
+#headerImage{
+height:auto !important;
+/*@editable*/ max-width:600px !important;
+/*@editable*/ width:100% !important;
+}
+
+/**
+* @tab Mobile Styles
+* @section header text
+* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+*/
+.headerContent{
+/*@editable*/ font-size:20px !important;
+/*@editable*/ line-height:125% !important;
+}
+
+/* ======== Body Styles ======== */
+
+/**
+* @tab Mobile Styles
+* @section body image
+* @tip Make the main body image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+*/
+#bodyImage{
+height:auto !important;
+/*@editable*/ max-width:560px !important;
+/*@editable*/ width:100% !important;
+}
+
+/**
+* @tab Mobile Styles
+* @section body text
+* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+*/
+.bodyContent{
+/*@editable*/ font-size:18px !important;
+/*@editable*/ line-height:125% !important;
+}
+
+/* ======== Footer Styles ======== */
+
+/**
+* @tab Mobile Styles
+* @section footer text
+* @tip Make the body content text larger in size for better readability on small screens.
+*/
+.footerContent{
+/*@editable*/ font-size:14px !important;
+/*@editable*/ line-height:115% !important;
+}
+
+.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */}
+
+.whiteBack{
+        background-color:#FFF;
+        padding:20px;
+        width:520px;
+}
+
+</style>
+	</head>
+	<body leftmargin="0" marginheight="0" marginwidth="0" offset="0" style="margin: 0;padding: 0;background-color: #DEE0E2;height: 100%;width: 100%;" topmargin="0">
+		<center>
+			<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0;background-color: #DEE0E2;border-collapse: collapse;height: 100%;width: 100%;" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" id="bodyCell" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 20px;border-top: 4px solid #BBBBBB;height: 100%;width: 100%;" valign="top">
+							<!-- BEGIN TEMPLATE // -->
+							<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;border: 1px solid #BBBBBB;border-collapse: collapse;">
+								<tbody>
+									<tr>
+										<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" valign="top">
+											<!-- BEGIN PREHEADER // -->
+											<table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-bottom: 1px solid #CCCCCC;border-collapse: collapse;" width="100%">
+												<tbody>
+													<tr>
+														<td class="preheaderContent" mc:edit="preheader_content00" style="background-color: #F4F4F4 !important; padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Helvetica;line-height: 125%;text-align: left;" valign="top">
+															University College is committed to providing you with the support and assistance you need to make a great transition to your second year at IUPUI.</td>
+														<!-- *|IFNOT:ARCHIVE_PAGE|* -->
+														<td class="preheaderContent" mc:edit="preheader_content01" style="background-color: #F4F4F4 !important; padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Helvetica;line-height: 125%;text-align: left;" valign="top" width="180">
+															Email not displaying correctly?<br />
+															<a href="http://broadcaster.iu.edu/dm?id=%%SUBSCRIBER_ID_TAG%%" style="color: #606060;font-weight: normal;text-decoration: underline;" target="_blank">View it in your browser</a>.</td>
+														<!-- *|END:IF|* -->
+													</tr>
+												</tbody>
+											</table>
+											<!-- // END PREHEADER --></td>
+									</tr>
+									<tr>
+										<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" valign="top">
+											<!-- BEGIN HEADER // -->
+											<table border="0" cellpadding="0" cellspacing="0" id="templateHeader" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-top: 1px solid #FFFFFF;border-bottom: 1px solid #CCCCCC;border-collapse: collapse;" width="100%">
+												<tbody>
+													<tr>
+														<td class="headerContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-weight: bold;line-height: 100%;padding-top: 0;padding-right: 0;padding-bottom: 0;padding-left: 0;text-align: left;vertical-align: middle;" valign="top">
+															<img id="headerImage" mc:allowdesigner="" mc:allowtext="" mc:edit="header_image" mc:label="header_image" src="http://media.broadcaster.iu.edu/collegeiupui/Deans/20130719_WelcomeSophomores/topHeader.jpg" style="max-width: 600px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" /></td>
+													</tr>
+												</tbody>
+											</table>
+											<!-- // END HEADER --></td>
+									</tr>
+									<tr>
+										<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" valign="top">
+											<!-- BEGIN BODY // -->
+											<table border="0" cellpadding="0" cellspacing="0" id="templateBody" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-top: 1px solid #FFFFFF;border-bottom: 1px solid #CCCCCC;border-collapse: collapse;" width="100%">
+												<tbody>
+													<tr>
+														<td class="bodyContent" mc:edit="body_content00" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;line-height: 150%;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: left;" valign="top">
+															<h1 style="display: block;font-family: Helvetica;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #202020;">
+																Dear %%$first%%,</h1>
+															<!--<h3>Creating a good-looking email is simple</h3>-->
+															<p>
+																We are eager to welcome you back to the IUPUI campus for your sophomore year! Many students feel that there is a dramatic difference between their freshman and sophomore years. While the freshman year is full of exciting firsts, the sophomore year can be trying. You may find yourself uncertain about which major to pursue or anxious about the application process for your chosen program. Check out some of the recommendations below on the <em>Sophomore Bucket List</em> to make the best of your upcoming semester.</p>
+															<p>
+																University College is committed to providing you with the support and assistance you need to make a great transition to your second year at IUPUI, and we look forward to your return to campus this month.</p>
+															<p>
+																Sincerely,</p>
+															<p>
+																Kathy E. Johnson, Ph.D.<br />
+																Dean, IUPUI University College</p>
+														</td>
+													</tr>
+													<tr>
+														<td class="bodyContent" style="padding-top: 0;padding-bottom: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;line-height: 150%;padding-right: 20px;padding-left: 20px;text-align: left;">
+															<img id="bodyImage" mc:allowtext="" mc:edit="body_image" mc:label="body_image" src="http://media.broadcaster.iu.edu/collegeiupui/Deans/20130719_WelcomeSophomores/bucketListHeader.jpg" style="max-width: 560px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" /></td>
+													</tr>
+													<tr>
+														<td class="bodyContent" mc:edit="body_content01" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;line-height: 150%;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: left;" valign="top">
+															<table class="whiteBack" style="background-color: #FFF;padding: 20px;width: 560px;">
+																<tbody>
+																	<tr>
+																		<td class="whiteBack" style="padding:20px;font-family:Helvetica;">
+																			<em>Your sophomore year is quickly approaching—make the best of this semester by completing the items below.</em>
+																			<p>
+																				<strong>Start Planning</strong><br />
+																				<a href="http://advising.uc.iupui.edu/SARS.aspx" style="color: #EB4102;font-weight: normal;text-decoration: underline;">Meet with your student success advisor</a> to develop a course plan from now until graduation. Develop a timeline for moving out of University College and into the IU or Purdue school from which your degree will be granted.<br />
+																				<br />
+																				<strong>Earn Some Money</strong><br />
+																				op for an on-campus job at the <a href="http://employment.uc.iupui.edu/ProgramsEvents/StudentEmploymentPartTimeJobFair.aspx">Student Employment Part-Time Job Fair</a> on August 28, 10 a.m.–1 p.m., University College Courtyard.<br />
+																				<br />
+																				<strong>Explore Majors</strong><br />
+																				Stop by <a href="http://events.iupui.edu/event/?event_id=10562">Major and Career Information Day</a> (MCID) to meet with students, alumni, and staff representatives from IUPUI undergraduate degree programs or to learn about RISE experiences on September 23, 12–2 p.m., Campus Center, CE 450. Attend a fun and informative event during Fall Career Week during October 13–17 to discover more about majors, careers, and the job search from employers, students, and faculty.<br />
+																				<br />
+																				<strong>Stay Healthy and Active</strong><br />
+																				Check out the new <a href="http://news.iupui.edu/releases/2013/07/bike-fixit-stations.shtml" style="color: #EB4102;font-weight: normal;text-decoration: underline;">bike repair stations</a> on campus, pick up organic vegetables at local farmers’ markets, or join an <a href="http://life.iupui.edu/campusrec/intramural/" style="color: #EB4102;font-weight: normal;text-decoration: underline;">intramural sports team</a>.<br />
+																				<br />
+																				<strong>Explore Culture</strong><br />
+																				Visit the <a href="http://www.eiteljorg.org/" style="color: #EB4102;font-weight: normal;text-decoration: underline;">Eiteljorg Museum</a> for free with your <a href="http://www.jagtag.iupui.edu" style="color: #EB4102;font-weight: normal;text-decoration: underline;">IUPUI Jagtag</a>.<br />
+																				<br />
+																				<strong>Prepare for Your Future</strong><br />
+																				There are several ways to prepare for your future. You can participate in an <a href="https://employment.uc.iupui.edu/ExternshipProgram.aspx">externship</a> to explore a career you are interested in; take part in the <a href="http://www.tinyurl.com/IUPUIExcellence">Excellence in Professionalism series</a> to enhance your soft skills, network, and build your professional persona; and have your resume reviewed by staff in the <a href="http://employment.uc.iupui.edu">Office of Student Employment</a>.<br />
+																				<br />
+																				<strong>Get Involved</strong><br />
+																				Check out the <a href="http://studentaffairs.iupui.edu/involved/index.shtml">Office of Student Involvement </a>and find a student organization that enables you to explore a new area of academic study, meet new people, serve community organizations in Indianapolis, and develop leadership skills. Grab some free ice cream at the Ice Cream Social on Tuesday, August 26, 10 a.m.–2 p.m., University College Courtyard.</p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<!-- // END BODY --></td>
+									</tr>
+									<tr>
+										<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" valign="top">
+											<!-- BEGIN FOOTER // -->
+											<table border="0" cellpadding="0" cellspacing="0" id="templateFooter" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-top: 1px solid #FFFFFF;border-collapse: collapse;" width="100%">
+												<tbody>
+													<tr>
+														<td class="footerContent" mc:edit="footer_content01" style="padding-top: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Helvetica;line-height: 150%;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: left;" valign="top">
+															<em>Copyright © 2002-2014 The Trustees of Indiana University</em><br />
+															<br />
+															<strong>Our mailing address is:</strong><br />
+															IUPUI University College, 815 W. Michigan Street, Indianapolis, IN 46202</td>
+													</tr>
+												</tbody>
+											</table>
+											<!-- // END FOOTER --></td>
+									</tr>
+								</tbody>
+							</table>
+							<!-- // END TEMPLATE --></td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+		<br />
+	</body>
+</html>
